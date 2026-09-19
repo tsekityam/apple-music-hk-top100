@@ -42,28 +42,31 @@ jobs:
       - name: Decide whether to run year-end report
         id: year_end
         env:
-          TZ: Asia/Hong_Kong
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_RUN_YEAR_END: ${{ inputs.run_year_end }}
+          INPUT_YEAR: ${{ inputs.year_end_year }}
         run: |
           set -euo pipefail
-          TODAY="$(TZ=Asia/Hong_Kong date +%Y-%m-%d)"
-          DO_YE="false"
+          HKT_MD="$(TZ=Asia/Hong_Kong date +%m-%d)"
+          PREV_YEAR="$(TZ=Asia/Hong_Kong date +%Y)"
+          # On Jan 1, previous calendar year is current_year - 1
+          PREV_YEAR="$(python3 -c "from datetime import datetime; from zoneinfo import ZoneInfo; n=datetime.now(ZoneInfo('Asia/Hong_Kong')); print(n.year-1)")"
+          DO_YE=false
           YEAR=""
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.run_year_end }}" == "true" ]]; then
-            DO_YE="true"
-            if [[ -n "${{ inputs.year_end_year }}" ]]; then
-              YEAR="${{ inputs.year_end_year }}"
+          if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${INPUT_RUN_YEAR_END}" == "true" ]]; then
+            DO_YE=true
+            if [[ -n "${INPUT_YEAR}" ]]; then
+              YEAR="${INPUT_YEAR}"
             else
-              YEAR="$(TZ=Asia/Hong_Kong date -d 'yesterday' +%Y 2>/dev/null || python3 -c 'from datetime import date; d=date.today(); print(d.year-1 if (d.month,d.day)==(1,1) else d.year-1)')"
-              # Prefer previous calendar year for manual year-end
-              YEAR="$(python3 -c "from datetime import datetime; from zoneinfo import ZoneInfo; n=datetime.now(ZoneInfo('Asia/Hong_Kong')); print(n.year-1)")"
+              YEAR="${PREV_YEAR}"
             fi
-          elif [[ "$(TZ=Asia/Hong_Kong date +%m-%d)" == "01-01" ]]; then
-            DO_YE="true"
-            YEAR="$(python3 -c "from datetime import datetime; from zoneinfo import ZoneInfo; n=datetime.now(ZoneInfo('Asia/Hong_Kong')); print(n.year-1)")"
+          elif [[ "${HKT_MD}" == "01-01" ]]; then
+            DO_YE=true
+            YEAR="${PREV_YEAR}"
           fi
           echo "run=${DO_YE}" >> "$GITHUB_OUTPUT"
           echo "year=${YEAR}" >> "$GITHUB_OUTPUT"
-          echo "today_hkt=${TODAY}" >> "$GITHUB_OUTPUT"
+          echo "today_hkt=$(TZ=Asia/Hong_Kong date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
       - name: Year-end report
         if: steps.year_end.outputs.run == 'true'

@@ -196,130 +196,37 @@ def fetch_via_scrape() -> tuple[list[dict[str, Any]], dict[str, Any]]:
 
 
 def fetch_via_api(token: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    # Paginate relationships/tracks
-    base = (
-        f"https://api.music.apple.com/v1/catalog/{STOREFRONT}/playlists/"
-        f"{PLAYLIST_ID}"
-    )
+    """Fetch playlist tracks via Apple Music Catalog API (needs developer JWT)."""
     headers = {
         "Authorization": f"Bearer {token}",
         "Origin": "https://music.apple.com",
         "Referer": "https://music.apple.com/",
         "User-Agent": USER_AGENT,
+        "Accept": "application/json",
     }
+    base = (
+        f"https://api.music.apple.com/v1/catalog/{STOREFRONT}/playlists/"
+        f"{PLAYLIST_ID}/tracks"
+    )
     raw_songs: list[dict[str, Any]] = []
-    offset = 0
-    limit = 100
-    while True:
-        url = (
-            f"{base}/tracks?limit={limit}&offset={offset}"
-            if offset
-            else f"{base}?include=tracks"
-        )
-        data = json.loads(http_get(url, headers=headers).decode("utf-8"))
-        if offset == 0 and "data" in data and data["data"]:
-            # First call returned playlist with included tracks
-            included = data.get("included") or []
-            track_data = [
-                x for x in included if x.get("type") == "songs"
-            ]
-            # Prefer ordered relationship
-            rel = (
-                data["data"][0]
-                .get("relationships", {})
-                .get("tracks", {})
-                .get("data", [])
+    next_url: str | None = f"{base}?limit=100"
+    while next_url:
+        data = json.loads(http_get(next_url, headers=headers).decode("utf-8"))
+        for song in data.get("data") or []:
+            attrs = song.get("attributes") or {}
+            raw_songs.append(
+                {
+                    "rank": len(raw_songs) + 1,
+                    "title": attrs.get("name") or "",
+                    "artists": attrs.get("artistName") or "",
+                    "album": attrs.get("albumName"),
+                    "apple_music_id": str(song.get("id") or ""),
+                    "url": attrs.get("url"),
+                }
             )
-            if rel:
-                by_id = {x["id"]: x for x in track_data}
-                ordered = []
-                for ref in rel:
-                    song = by_id.get(ref["id"])
-                    if song:
-                        ordered.append(song)
-                # If included incomplete, fetch tracks endpoint
-                if len(ordered) >= len(rel):
-                    track_data = ordered
-                else:
-                    tracks_url = f"{base}/tracks?limit={limit}"
-                    track_data = []
-                    next_url: str | None = tracks_url
-                    while next_url:
-                        page = json.loads(
-                            http_get(next_url, headers=headers).decode("utf-8")
-                        )
-                        track_data.extend(page.get("data") or [])
-                        next_url = (page.get("next") or None)
-                        if next_url and next_url.startswith("/"):
-                            next_url = "https://api.music.apple.com" + next_url
-                    break
-            for i, song in enumerate(track_data, start=1):
-                attrs = song.get("attributes") or {}
-                raw_songs.append(
-                    {
-                        "rank": i,
-                        "title": attrs.get("name") or "",
-                        "artists": attrs.get("artistName") or "",
-                        "album": attrs.get("albumName"),
-                        "apple_music_id": str(song.get("id") or ""),
-                        "url": attrs.get("url"),
-                    }
-                )
-            break
-        else:
-            page_tracks = data.get("data") or []
-            for song in page_tracks:
-                attrs = song.get("attributes") or {}
-                raw_songs.append(
-                    {
-                        "rank": len(raw_songs) + 1,
-                        "title": attrs.get("name") or "",
-                        "artists": attrs.get("artistName") or "",
-                        "album": attrs.get("albumName"),
-                        "apple_music_id": str(song.get("id") or ""),
-                        "url": attrs.get("url"),
-                    }
-                )
-            next_url = data.get("next")
-            if not next_url:
-                break
-            if next_url.startswith("/"):
-                next_url = "https://api.music.apple.com" + next_url
-            # continue via absolute next
-            data = json.loads(http_get(next_url, headers=headers).decode("utf-8"))
-            page_tracks = data.get("data") or []
-            for song in page_tracks:
-                attrs = song.get("attributes") or {}
-                raw_songs.append(
-                    {
-                        "rank": len(raw_songs) + 1,
-                        "title": attrs.get("name") or "",
-                        "artists": attrs.get("artistName") or "",
-                        "album": attrs.get("albumName"),
-                        "apple_music_id": str(song.get("id") or ""),
-                        "url": attrs.get("url"),
-                    }
-                )
-            while data.get("next"):
-                next_url = data["next"]
-                if next_url.startswith("/"):
-                    next_url = "https://api.music.apple.com" + next_url
-                data = json.loads(
-                    http_get(next_url, headers=headers).decode("utf-8")
-                )
-                for song in data.get("data") or []:
-                    attrs = song.get("attributes") or {}
-                    raw_songs.append(
-                        {
-                            "rank": len(raw_songs) + 1,
-                            "title": attrs.get("name") or "",
-                            "artists": attrs.get("artistName") or "",
-                            "album": attrs.get("albumName"),
-                            "apple_music_id": str(song.get("id") or ""),
-                            "url": attrs.get("url"),
-                        }
-                    )
-            break
+        next_url = data.get("next")
+        if next_url and next_url.startswith("/"):
+            next_url = "https://api.music.apple.com" + next_url
 
     if not raw_songs:
         raise RuntimeError("Apple Music API returned no tracks")
