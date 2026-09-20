@@ -1,6 +1,6 @@
 # Apple Music Top 100: Hong Kong — 2026-09-20
 
-- Snapshot at: `2026-09-20T06:12:49+08:00` (Asia/Hong_Kong)
+- Snapshot at: `2026-09-20T09:14:40+08:00` (Asia/Hong_Kong)
 - Source: `public_page_scrape`
 - Tracks: 100
 - Playlist: https://music.apple.com/hk/playlist/top-100-hong-kong/pl.7f35cffa10b54b91aab128ccc547f6ef
