@@ -2,6 +2,7 @@
 
 Daily #1 song from Apple Music Top 100: Hong Kong.
 
+- **2026-10-16** — #1: 淺粉紅 pale pink — Gareth.T (100 tracks, source=public_page_scrape)
 - **2026-10-15** — #1: 淺粉紅 pale pink — Gareth.T (100 tracks, source=public_page_scrape)
 - **2026-10-14** — #1: 淺粉紅 pale pink — Gareth.T (100 tracks, source=public_page_scrape)
 - **2026-10-13** — #1: 淺粉紅 pale pink — Gareth.T (100 tracks, source=public_page_scrape)
