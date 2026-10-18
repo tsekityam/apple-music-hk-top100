@@ -3,8 +3,8 @@
   "playlist_name": "Top 100: Hong Kong",
   "playlist_url": "https://music.apple.com/hk/playlist/top-100-hong-kong/pl.7f35cffa10b54b91aab128ccc547f6ef",
   "storefront": "hk",
-  "snapshot_date": "2026-10-17",
-  "snapshot_at": "2026-10-17T08:35:38+08:00",
+  "snapshot_date": "2026-10-18",
+  "snapshot_at": "2026-10-18T08:40:15+08:00",
   "timezone": "Asia/Hong_Kong",
   "source": "public_page_scrape",
   "track_count": 100,
@@ -20,8 +20,8 @@
       "album": "NEON - Single",
       "apple_music_id": "6820428730",
       "url": "https://music.apple.com/hk/album/neon/6820428726?i=6820428730",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 2,
@@ -33,8 +33,8 @@
       "album": "淺粉紅 - Single",
       "apple_music_id": "6814412779",
       "url": "https://music.apple.com/hk/album/%E6%B7%BA%E7%B2%89%E7%B4%85-pale-pink/6814412776?i=6814412779",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 3,
@@ -46,8 +46,8 @@
       "album": "用背脊唱情歌 - Single",
       "apple_music_id": "1816674595",
       "url": "https://music.apple.com/hk/album/%E7%94%A8%E8%83%8C%E8%84%8A%E5%94%B1%E6%83%85%E6%AD%8C/1816674588?i=1816674595",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 4,
@@ -59,8 +59,8 @@
       "album": "說謊者 - Single",
       "apple_music_id": "1784959357",
       "url": "https://music.apple.com/hk/album/%E8%AA%AA%E8%AC%8A%E8%80%85/1784959356?i=1784959357",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 5,
@@ -72,8 +72,8 @@
       "album": "未深入但了解 - Single",
       "apple_music_id": "6819159640",
       "url": "https://music.apple.com/hk/album/%E6%9C%AA%E6%B7%B1%E5%85%A5%E4%BD%86%E4%BA%86%E8%A7%A3/6819159639?i=6819159640",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 6,
@@ -85,50 +85,11 @@
       "album": "男人怎可以 - Single",
       "apple_music_id": "6772915785",
       "url": "https://music.apple.com/hk/album/%E7%94%B7%E4%BA%BA%E6%80%8E%E5%8F%AF%E4%BB%A5/6772915783?i=6772915785",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 7,
-      "title": "昨遲人",
-      "artists": [
-        "許志安"
-      ],
-      "artists_display": "許志安",
-      "album": "廣東經典101",
-      "apple_music_id": "1444120148",
-      "url": "https://music.apple.com/hk/album/%E6%98%A8%E9%81%B2%E4%BA%BA/1444119039?i=1444120148",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 8,
-      "title": "陽光普照",
-      "artists": [
-        "容祖兒"
-      ],
-      "artists_display": "容祖兒",
-      "album": "陽光普照 - Single",
-      "apple_music_id": "6813529292",
-      "url": "https://music.apple.com/hk/album/%E9%99%BD%E5%85%89%E6%99%AE%E7%85%A7/6813529287?i=6813529292",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 9,
-      "title": "至少相擁沒錯",
-      "artists": [
-        "MC 張天賦"
-      ],
-      "artists_display": "MC 張天賦",
-      "album": "至少相擁沒錯 - Single",
-      "apple_music_id": "6800595231",
-      "url": "https://music.apple.com/hk/album/%E8%87%B3%E5%B0%91%E7%9B%B8%E6%93%81%E6%B2%92%E9%8C%AF/6800595230?i=6800595231",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 10,
       "title": "緊急聯絡人",
       "artists": [
         "Gareth.T"
@@ -137,8 +98,47 @@
       "album": "緊急聯絡人 - Single",
       "apple_music_id": "1718045819",
       "url": "https://music.apple.com/hk/album/%E7%B7%8A%E6%80%A5%E8%81%AF%E7%B5%A1%E4%BA%BA/1718045810?i=1718045819",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 8,
+      "title": "至少相擁沒錯",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "album": "至少相擁沒錯 - Single",
+      "apple_music_id": "6800595231",
+      "url": "https://music.apple.com/hk/album/%E8%87%B3%E5%B0%91%E7%9B%B8%E6%93%81%E6%B2%92%E9%8C%AF/6800595230?i=6800595231",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 9,
+      "title": "昨遲人",
+      "artists": [
+        "許志安"
+      ],
+      "artists_display": "許志安",
+      "album": "廣東經典101",
+      "apple_music_id": "1444120148",
+      "url": "https://music.apple.com/hk/album/%E6%98%A8%E9%81%B2%E4%BA%BA/1444119039?i=1444120148",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 10,
+      "title": "陽光普照",
+      "artists": [
+        "容祖兒"
+      ],
+      "artists_display": "容祖兒",
+      "album": "陽光普照 - Single",
+      "apple_music_id": "6813529292",
+      "url": "https://music.apple.com/hk/album/%E9%99%BD%E5%85%89%E6%99%AE%E7%85%A7/6813529287?i=6813529292",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 11,
@@ -150,11 +150,50 @@
       "album": "Goodnight, Lillie.",
       "apple_music_id": "1887819000",
       "url": "https://music.apple.com/hk/album/%E6%88%91%E7%9C%8B%E8%A6%8B%E4%BB%8A%E6%99%9A%E7%9A%84%E6%9C%88%E8%89%B2%E5%BE%88%E7%BE%8E-%E4%BD%A0%E5%91%A2/1887818994?i=1887819000",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 12,
+      "title": "歲月如歌",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "Live for Today",
+      "apple_music_id": "542677437",
+      "url": "https://music.apple.com/hk/album/%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C/542676848?i=542677437",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 13,
+      "title": "不在場",
+      "artists": [
+        "馮允謙"
+      ],
+      "artists_display": "馮允謙",
+      "album": "不在場 - Single",
+      "apple_music_id": "6817225594",
+      "url": "https://music.apple.com/hk/album/%E4%B8%8D%E5%9C%A8%E5%A0%B4/6817225593?i=6817225594",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 14,
+      "title": "陀飛輪",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "Time Flies 2010 - EP",
+      "apple_music_id": "1443717750",
+      "url": "https://music.apple.com/hk/album/%E9%99%80%E9%A3%9B%E8%BC%AA/1443717418?i=1443717750",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 15,
       "title": "懷疑人生",
       "artists": [
         "MC 張天賦"
@@ -163,11 +202,11 @@
       "album": "懷疑人生 - Single",
       "apple_music_id": "1804348174",
       "url": "https://music.apple.com/hk/album/%E6%87%B7%E7%96%91%E4%BA%BA%E7%94%9F/1804347852?i=1804348174",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 13,
+      "rank": 16,
       "title": "旋轉木馬",
       "artists": [
         "米爺",
@@ -177,11 +216,11 @@
       "album": "旋轉木馬 - Single",
       "apple_music_id": "6789835836",
       "url": "https://music.apple.com/hk/album/%E6%97%8B%E8%BD%89%E6%9C%A8%E9%A6%AC/6789835835?i=6789835836",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 14,
+      "rank": 17,
       "title": "記憶棉",
       "artists": [
         "MC 張天賦"
@@ -190,50 +229,24 @@
       "album": "記憶棉 - Single",
       "apple_music_id": "1590828011",
       "url": "https://music.apple.com/hk/album/%E8%A8%98%E6%86%B6%E6%A3%89/1590828009?i=1590828011",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 15,
-      "title": "不在場",
-      "artists": [
-        "馮允謙"
-      ],
-      "artists_display": "馮允謙",
-      "album": "不在場 - Single",
-      "apple_music_id": "6817225594",
-      "url": "https://music.apple.com/hk/album/%E4%B8%8D%E5%9C%A8%E5%A0%B4/6817225593?i=6817225594",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 16,
-      "title": "歲月如歌",
+      "rank": 18,
+      "title": "葡萄成熟時",
       "artists": [
         "陳奕迅"
       ],
       "artists_display": "陳奕迅",
-      "album": "Live for Today",
-      "apple_music_id": "542677437",
-      "url": "https://music.apple.com/hk/album/%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C/542676848?i=542677437",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "album": "U 87",
+      "apple_music_id": "1443375474",
+      "url": "https://music.apple.com/hk/album/%E8%91%A1%E8%90%84%E6%88%90%E7%86%9F%E6%99%82/1443374875?i=1443375474",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 17,
-      "title": "Nicole Kidman",
-      "artists": [
-        "ADÉLA"
-      ],
-      "artists_display": "ADÉLA",
-      "album": "PRIMA",
-      "apple_music_id": "6792884088",
-      "url": "https://music.apple.com/hk/album/nicole-kidman/6792883860?i=6792884088",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 18,
+      "rank": 19,
       "title": "黑玻璃",
       "artists": [
         "洪嘉豪"
@@ -242,34 +255,21 @@
       "album": "黑玻璃 - Single",
       "apple_music_id": "1722428083",
       "url": "https://music.apple.com/hk/album/%E9%BB%91%E7%8E%BB%E7%92%83/1722428072?i=1722428083",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 19,
-      "title": "陀飛輪",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "Time Flies 2010 - EP",
-      "apple_music_id": "1443717750",
-      "url": "https://music.apple.com/hk/album/%E9%99%80%E9%A3%9B%E8%BC%AA/1443717418?i=1443717750",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 20,
-      "title": "戒糖失敗",
+      "title": "Nicole Kidman",
       "artists": [
-        "洪嘉豪"
+        "ADÉLA"
       ],
-      "artists_display": "洪嘉豪",
-      "album": "戒糖失敗 - Single",
-      "apple_music_id": "6815655220",
-      "url": "https://music.apple.com/hk/album/%E6%88%92%E7%B3%96%E5%A4%B1%E6%95%97/6815655209?i=6815655220",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "ADÉLA",
+      "album": "PRIMA",
+      "apple_music_id": "6807192825",
+      "url": "https://music.apple.com/hk/album/nicole-kidman/6807192580?i=6807192825",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 21,
@@ -281,37 +281,50 @@
       "album": "淺粉紅 - Single",
       "apple_music_id": "6814412781",
       "url": "https://music.apple.com/hk/album/%E6%B7%BA%E7%B2%89%E7%B4%85-baby-pink/6814412776?i=6814412781",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 22,
-      "title": "CRASH",
+      "title": "任我行",
       "artists": [
-        "ALLDAY PROJECT"
+        "陳奕迅"
       ],
-      "artists_display": "ALLDAY PROJECT",
-      "album": "CRASH - EP",
-      "apple_music_id": "6812155967",
-      "url": "https://music.apple.com/hk/album/crash/6812155961?i=6812155967",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "陳奕迅",
+      "album": "The Key",
+      "apple_music_id": "1386714597",
+      "url": "https://music.apple.com/hk/album/%E4%BB%BB%E6%88%91%E8%A1%8C/1386714588?i=1386714597",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 23,
-      "title": "老派約會之必要",
+      "title": "十面埋伏",
       "artists": [
-        "MC 張天賦"
+        "陳奕迅"
       ],
-      "artists_display": "MC 張天賦",
-      "album": "老派約會之必要",
-      "apple_music_id": "1635915583",
-      "url": "https://music.apple.com/hk/album/%E8%80%81%E6%B4%BE%E7%B4%84%E6%9C%83%E4%B9%8B%E5%BF%85%E8%A6%81/1635915573?i=1635915583",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "陳奕迅",
+      "album": "2013 陳奕迅 Music Life 精選",
+      "apple_music_id": "667921834",
+      "url": "https://music.apple.com/hk/album/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F/667921627?i=667921834",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 24,
+      "title": "戒糖失敗",
+      "artists": [
+        "洪嘉豪"
+      ],
+      "artists_display": "洪嘉豪",
+      "album": "戒糖失敗 - Single",
+      "apple_music_id": "6815655220",
+      "url": "https://music.apple.com/hk/album/%E6%88%92%E7%B3%96%E5%A4%B1%E6%95%97/6815655209?i=6815655220",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 25,
       "title": "玻璃",
       "artists": [
         "Gareth.T"
@@ -320,37 +333,76 @@
       "album": "玻璃 - Single",
       "apple_music_id": "6769327013",
       "url": "https://music.apple.com/hk/album/%E7%8E%BB%E7%92%83/6769327003?i=6769327013",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 25,
-      "title": "I’m gonna TOESA (feat. Kian84)",
-      "artists": [
-        "JEON SOYEON"
-      ],
-      "artists_display": "JEON SOYEON",
-      "album": "What a Wonderful Life",
-      "apple_music_id": "6804744599",
-      "url": "https://music.apple.com/hk/album/im-gonna-toesa-feat-kian84/6804744597?i=6804744599",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 26,
-      "title": "一步一生",
+      "title": "老派約會之必要",
       "artists": [
-        "許志安"
+        "MC 張天賦"
       ],
-      "artists_display": "許志安",
-      "album": "My Story",
-      "apple_music_id": "1444107574",
-      "url": "https://music.apple.com/hk/album/%E4%B8%80%E6%AD%A5%E4%B8%80%E7%94%9F/1444107563?i=1444107574",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "MC 張天賦",
+      "album": "老派約會之必要",
+      "apple_music_id": "1635915583",
+      "url": "https://music.apple.com/hk/album/%E8%80%81%E6%B4%BE%E7%B4%84%E6%9C%83%E4%B9%8B%E5%BF%85%E8%A6%81/1635915573?i=1635915583",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 27,
+      "title": "CRASH",
+      "artists": [
+        "ALLDAY PROJECT"
+      ],
+      "artists_display": "ALLDAY PROJECT",
+      "album": "CRASH - EP",
+      "apple_music_id": "6812155967",
+      "url": "https://music.apple.com/hk/album/crash/6812155961?i=6812155967",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 28,
+      "title": "沙龍",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "H3M (Remastered 2019)",
+      "apple_music_id": "1490822213",
+      "url": "https://music.apple.com/hk/album/%E6%B2%99%E9%BE%8D/1490822198?i=1490822213",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 29,
+      "title": "K歌之王",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "陳奕迅 廣東精選",
+      "apple_music_id": "651449679",
+      "url": "https://music.apple.com/hk/album/k%E6%AD%8C%E4%B9%8B%E7%8E%8B/651449675?i=651449679",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 30,
+      "title": "命硬",
+      "artists": [
+        "側田"
+      ],
+      "artists_display": "側田",
+      "album": "側田",
+      "apple_music_id": "905169205",
+      "url": "https://music.apple.com/hk/album/%E5%91%BD%E7%A1%AC/905169192?i=905169205",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 31,
       "title": "永久損毀",
       "artists": [
         "MC 張天賦",
@@ -360,154 +412,37 @@
       "album": "永久損毀 - Single",
       "apple_music_id": "1720142741",
       "url": "https://music.apple.com/hk/album/%E6%B0%B8%E4%B9%85%E6%90%8D%E6%AF%80/1720142738?i=1720142741",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 28,
-      "title": "葡萄成熟時",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "U 87",
-      "apple_music_id": "1443375474",
-      "url": "https://music.apple.com/hk/album/%E8%91%A1%E8%90%84%E6%88%90%E7%86%9F%E6%99%82/1443374875?i=1443375474",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 29,
-      "title": "命硬",
-      "artists": [
-        "側田"
-      ],
-      "artists_display": "側田",
-      "album": "側田",
-      "apple_music_id": "905169205",
-      "url": "https://music.apple.com/hk/album/%E5%91%BD%E7%A1%AC/905169192?i=905169205",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 30,
-      "title": "小心碰頭",
-      "artists": [
-        "MC 張天賦"
-      ],
-      "artists_display": "MC 張天賦",
-      "album": "小心碰頭 - Single",
-      "apple_music_id": "1762544235",
-      "url": "https://music.apple.com/hk/album/%E5%B0%8F%E5%BF%83%E7%A2%B0%E9%A0%AD/1762544234?i=1762544235",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 31,
-      "title": "甲乙丙丁Strangers",
-      "artists": [
-        "李佳薇"
-      ],
-      "artists_display": "李佳薇",
-      "album": "甲乙丙丁Strangers - Single",
-      "apple_music_id": "6785801848",
-      "url": "https://music.apple.com/hk/album/%E7%94%B2%E4%B9%99%E4%B8%99%E4%B8%81strangers/6785801843?i=6785801848",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 32,
-      "title": "十面埋伏",
+      "title": "I’m gonna TOESA (feat. Kian84)",
       "artists": [
-        "陳奕迅"
+        "JEON SOYEON"
       ],
-      "artists_display": "陳奕迅",
-      "album": "2013 陳奕迅 Music Life 精選",
-      "apple_music_id": "667921834",
-      "url": "https://music.apple.com/hk/album/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F/667921627?i=667921834",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "JEON SOYEON",
+      "album": "What a Wonderful Life",
+      "apple_music_id": "6804744599",
+      "url": "https://music.apple.com/hk/album/im-gonna-toesa-feat-kian84/6804744597?i=6804744599",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 33,
-      "title": "任我行",
+      "title": "富士山下",
       "artists": [
         "陳奕迅"
       ],
       "artists_display": "陳奕迅",
-      "album": "The Key",
-      "apple_music_id": "1386714597",
-      "url": "https://music.apple.com/hk/album/%E4%BB%BB%E6%88%91%E8%A1%8C/1386714588?i=1386714597",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "album": "What's Going On...?",
+      "apple_music_id": "1443346107",
+      "url": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B/1443345687?i=1443346107",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 34,
-      "title": "擱淺",
-      "artists": [
-        "周杰倫"
-      ],
-      "artists_display": "周杰倫",
-      "album": "七里香",
-      "apple_music_id": "1721450047",
-      "url": "https://music.apple.com/hk/album/%E6%93%B1%E6%B7%BA/1721450027?i=1721450047",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 35,
-      "title": "心之科學",
-      "artists": [
-        "容祖兒"
-      ],
-      "artists_display": "容祖兒",
-      "album": "心之科學 - Single",
-      "apple_music_id": "1397759819",
-      "url": "https://music.apple.com/hk/album/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8/1397759810?i=1397759819",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 36,
-      "title": "K歌之王",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "陳奕迅 廣東精選",
-      "apple_music_id": "651449679",
-      "url": "https://music.apple.com/hk/album/k%E6%AD%8C%E4%B9%8B%E7%8E%8B/651449675?i=651449679",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 37,
-      "title": "一百個未老先衰的方法",
-      "artists": [
-        "MC 張天賦"
-      ],
-      "artists_display": "MC 張天賦",
-      "album": "一百個未老先衰的方法 - Single",
-      "apple_music_id": "1781053262",
-      "url": "https://music.apple.com/hk/album/%E4%B8%80%E7%99%BE%E5%80%8B%E6%9C%AA%E8%80%81%E5%85%88%E8%A1%B0%E7%9A%84%E6%96%B9%E6%B3%95/1781053261?i=1781053262",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 38,
-      "title": "抽",
-      "artists": [
-        "MC 張天賦"
-      ],
-      "artists_display": "MC 張天賦",
-      "album": "抽 - Single",
-      "apple_music_id": "1698293749",
-      "url": "https://music.apple.com/hk/album/%E6%8A%BD/1698293748?i=1698293749",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 39,
       "title": "明年今日",
       "artists": [
         "陳奕迅"
@@ -516,34 +451,99 @@
       "album": "2013 陳奕迅 Music Life 精選",
       "apple_music_id": "667921833",
       "url": "https://music.apple.com/hk/album/%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5/667921627?i=667921833",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 40,
-      "title": "隔牆有耳",
+      "rank": 35,
+      "title": "就算我錯漏百出",
+      "artists": [
+        "Kiri T"
+      ],
+      "artists_display": "Kiri T",
+      "album": "就算我錯漏百出 - Single",
+      "apple_music_id": "6820859973",
+      "url": "https://music.apple.com/hk/album/%E5%B0%B1%E7%AE%97%E6%88%91%E9%8C%AF%E6%BC%8F%E7%99%BE%E5%87%BA/6820859972?i=6820859973",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 36,
+      "title": "小心碰頭",
       "artists": [
         "MC 張天賦"
       ],
       "artists_display": "MC 張天賦",
-      "album": "TREBLE",
-      "apple_music_id": "1733704049",
-      "url": "https://music.apple.com/hk/album/%E9%9A%94%E7%89%86%E6%9C%89%E8%80%B3/1733703884?i=1733704049",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "album": "小心碰頭 - Single",
+      "apple_music_id": "1762544235",
+      "url": "https://music.apple.com/hk/album/%E5%B0%8F%E5%BF%83%E7%A2%B0%E9%A0%AD/1762544234?i=1762544235",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 37,
+      "title": "心之科學",
+      "artists": [
+        "容祖兒"
+      ],
+      "artists_display": "容祖兒",
+      "album": "心之科學 - Single",
+      "apple_music_id": "1397759819",
+      "url": "https://music.apple.com/hk/album/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8/1397759810?i=1397759819",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 38,
+      "title": "擱淺",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "album": "七里香",
+      "apple_music_id": "1721450047",
+      "url": "https://music.apple.com/hk/album/%E6%93%B1%E6%B7%BA/1721450027?i=1721450047",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 39,
+      "title": "Shall We Talk",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "Shall We Dance? Shall We Talk!",
+      "apple_music_id": "542593703",
+      "url": "https://music.apple.com/hk/album/shall-we-talk/542593700?i=542593703",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 40,
+      "title": "甲乙丙丁Strangers",
+      "artists": [
+        "李佳薇"
+      ],
+      "artists_display": "李佳薇",
+      "album": "甲乙丙丁Strangers - Single",
+      "apple_music_id": "6785801848",
+      "url": "https://music.apple.com/hk/album/%E7%94%B2%E4%B9%99%E4%B8%99%E4%B8%81strangers/6785801843?i=6785801848",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 41,
-      "title": "到此為止",
+      "title": "一步一生",
       "artists": [
-        "連詩雅"
+        "許志安"
       ],
-      "artists_display": "連詩雅",
-      "album": "Movin' On - EP",
-      "apple_music_id": "1820726257",
-      "url": "https://music.apple.com/hk/album/%E5%88%B0%E6%AD%A4%E7%82%BA%E6%AD%A2/1820726103?i=1820726257",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "許志安",
+      "album": "My Story",
+      "apple_music_id": "1444107574",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E6%AD%A5%E4%B8%80%E7%94%9F/1444107563?i=1444107574",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 42,
@@ -555,21 +555,21 @@
       "album": "青春告別式 - Single",
       "apple_music_id": "1722741558",
       "url": "https://music.apple.com/hk/album/%E9%9D%92%E6%98%A5%E5%91%8A%E5%88%A5%E5%BC%8F/1722741557?i=1722741558",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 43,
-      "title": "沙龍",
+      "title": "一百個未老先衰的方法",
       "artists": [
-        "陳奕迅"
+        "MC 張天賦"
       ],
-      "artists_display": "陳奕迅",
-      "album": "H3M (Remastered 2019)",
-      "apple_music_id": "1490822213",
-      "url": "https://music.apple.com/hk/album/%E6%B2%99%E9%BE%8D/1490822198?i=1490822213",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "MC 張天賦",
+      "album": "一百個未老先衰的方法 - Single",
+      "apple_music_id": "1781053262",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E7%99%BE%E5%80%8B%E6%9C%AA%E8%80%81%E5%85%88%E8%A1%B0%E7%9A%84%E6%96%B9%E6%B3%95/1781053261?i=1781053262",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 44,
@@ -581,128 +581,11 @@
       "album": "隱形遊樂場 - Single",
       "apple_music_id": "1683279954",
       "url": "https://music.apple.com/hk/album/%E9%9A%B1%E5%BD%A2%E9%81%8A%E6%A8%82%E5%A0%B4/1683279953?i=1683279954",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 45,
-      "title": "放棄的界限",
-      "artists": [
-        "張敬軒"
-      ],
-      "artists_display": "張敬軒",
-      "album": "放棄的界限 - Single",
-      "apple_music_id": "6795577083",
-      "url": "https://music.apple.com/hk/album/%E6%94%BE%E6%A3%84%E7%9A%84%E7%95%8C%E9%99%90/6795577081?i=6795577083",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 46,
-      "title": "靈魂相願",
-      "artists": [
-        "張敬軒"
-      ],
-      "artists_display": "張敬軒",
-      "album": "靈魂相願 - Single",
-      "apple_music_id": "6795983962",
-      "url": "https://music.apple.com/hk/album/%E9%9D%88%E9%AD%82%E7%9B%B8%E9%A1%98/6795983960?i=6795983962",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 47,
-      "title": "Training Season",
-      "artists": [
-        "Dua Lipa"
-      ],
-      "artists_display": "Dua Lipa",
-      "album": "Training Season - Single",
-      "apple_music_id": "1727526894",
-      "url": "https://music.apple.com/hk/album/training-season/1727526670?i=1727526894",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 48,
-      "title": "離家出走",
-      "artists": [
-        "衛蘭"
-      ],
-      "artists_display": "衛蘭",
-      "album": "Do U Know...",
-      "apple_music_id": "557096400",
-      "url": "https://music.apple.com/hk/album/%E9%9B%A2%E5%AE%B6%E5%87%BA%E8%B5%B0/557096396?i=557096400",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 49,
-      "title": "反對無效",
-      "artists": [
-        "MC 張天賦"
-      ],
-      "artists_display": "MC 張天賦",
-      "album": "反對無效 - Single",
-      "apple_music_id": "1569850022",
-      "url": "https://music.apple.com/hk/album/%E5%8F%8D%E5%B0%8D%E7%84%A1%E6%95%88/1569850021?i=1569850022",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 50,
-      "title": "Patient Zero",
-      "artists": [
-        "Taylor Swift"
-      ],
-      "artists_display": "Taylor Swift",
-      "album": "The Life of a Showgirl: The Encore",
-      "apple_music_id": "6814997425",
-      "url": "https://music.apple.com/hk/album/patient-zero/6814997249?i=6814997425",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 51,
-      "title": "富士山下",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "What's Going On...?",
-      "apple_music_id": "1443346107",
-      "url": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B/1443345687?i=1443346107",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 52,
-      "title": "晴天",
-      "artists": [
-        "周杰倫"
-      ],
-      "artists_display": "周杰倫",
-      "album": "葉惠美",
-      "apple_music_id": "1721464906",
-      "url": "https://music.apple.com/hk/album/%E6%99%B4%E5%A4%A9/1721464893?i=1721464906",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 53,
-      "title": "BAD",
-      "artists": [
-        "ATEEZ"
-      ],
-      "artists_display": "ATEEZ",
-      "album": "GOLDEN HOUR : Part.5 - EP",
-      "apple_music_id": "6770401926",
-      "url": "https://music.apple.com/hk/album/bad/6770401924?i=6770401926",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 54,
       "title": "閉目入神",
       "artists": [
         "鄭中基"
@@ -711,21 +594,138 @@
       "album": "正宗K (新曲+精選)",
       "apple_music_id": "924531379",
       "url": "https://music.apple.com/hk/album/%E9%96%89%E7%9B%AE%E5%85%A5%E7%A5%9E/924531373?i=924531379",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 55,
-      "title": "世一",
+      "rank": 46,
+      "title": "抽",
       "artists": [
         "MC 張天賦"
       ],
       "artists_display": "MC 張天賦",
-      "album": "世一 - Single",
-      "apple_music_id": "1664796698",
-      "url": "https://music.apple.com/hk/album/%E4%B8%96%E4%B8%80/1664796684?i=1664796698",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "album": "抽 - Single",
+      "apple_music_id": "1698293749",
+      "url": "https://music.apple.com/hk/album/%E6%8A%BD/1698293748?i=1698293749",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 47,
+      "title": "到此為止",
+      "artists": [
+        "連詩雅"
+      ],
+      "artists_display": "連詩雅",
+      "album": "Movin' On - EP",
+      "apple_music_id": "1820726257",
+      "url": "https://music.apple.com/hk/album/%E5%88%B0%E6%AD%A4%E7%82%BA%E6%AD%A2/1820726103?i=1820726257",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 48,
+      "title": "隔牆有耳",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "album": "TREBLE",
+      "apple_music_id": "1733704049",
+      "url": "https://music.apple.com/hk/album/%E9%9A%94%E7%89%86%E6%9C%89%E8%80%B3/1733703884?i=1733704049",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 49,
+      "title": "離家出走",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "album": "Do U Know...",
+      "apple_music_id": "557096400",
+      "url": "https://music.apple.com/hk/album/%E9%9B%A2%E5%AE%B6%E5%87%BA%E8%B5%B0/557096396?i=557096400",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 50,
+      "title": "無條件",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "準備中",
+      "apple_music_id": "1422674971",
+      "url": "https://music.apple.com/hk/album/%E7%84%A1%E6%A2%9D%E4%BB%B6/1422674966?i=1422674971",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 51,
+      "title": "晴天",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "album": "葉惠美",
+      "apple_music_id": "1721464906",
+      "url": "https://music.apple.com/hk/album/%E6%99%B4%E5%A4%A9/1721464893?i=1721464906",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 52,
+      "title": "靈魂相願",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "album": "靈魂相願 - Single",
+      "apple_music_id": "6795983962",
+      "url": "https://music.apple.com/hk/album/%E9%9D%88%E9%AD%82%E7%9B%B8%E9%A1%98/6795983960?i=6795983962",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 53,
+      "title": "放棄的界限",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "album": "放棄的界限 - Single",
+      "apple_music_id": "6795577083",
+      "url": "https://music.apple.com/hk/album/%E6%94%BE%E6%A3%84%E7%9A%84%E7%95%8C%E9%99%90/6795577081?i=6795577083",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 54,
+      "title": "BAD",
+      "artists": [
+        "ATEEZ"
+      ],
+      "artists_display": "ATEEZ",
+      "album": "GOLDEN HOUR : Part.5 - EP",
+      "apple_music_id": "6770401926",
+      "url": "https://music.apple.com/hk/album/bad/6770401924?i=6770401926",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 55,
+      "title": "到底發生過什麼事",
+      "artists": [
+        "Dear Jane"
+      ],
+      "artists_display": "Dear Jane",
+      "album": "到底發生過什麼事 - Single",
+      "apple_music_id": "1650415605",
+      "url": "https://music.apple.com/hk/album/%E5%88%B0%E5%BA%95%E7%99%BC%E7%94%9F%E9%81%8E%E4%BB%80%E9%BA%BC%E4%BA%8B/1650415601?i=1650415605",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 56,
@@ -737,34 +737,34 @@
       "album": "Less than a Lover - Single",
       "apple_music_id": "6793277028",
       "url": "https://music.apple.com/hk/album/less-than-a-lover/6793277024?i=6793277028",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 57,
-      "title": "Shall We Talk",
+      "title": "一路向北",
       "artists": [
-        "陳奕迅"
+        "周杰倫"
       ],
-      "artists_display": "陳奕迅",
-      "album": "Shall We Dance? Shall We Talk!",
-      "apple_music_id": "542593703",
-      "url": "https://music.apple.com/hk/album/shall-we-talk/542593700?i=542593703",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "周杰倫",
+      "album": "11月的蕭邦",
+      "apple_music_id": "1721454134",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E8%B7%AF%E5%90%91%E5%8C%97/1721453716?i=1721454134",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 58,
-      "title": "到底發生過什麼事",
+      "title": "反對無效",
       "artists": [
-        "Dear Jane"
+        "MC 張天賦"
       ],
-      "artists_display": "Dear Jane",
-      "album": "到底發生過什麼事 - Single",
-      "apple_music_id": "1650415605",
-      "url": "https://music.apple.com/hk/album/%E5%88%B0%E5%BA%95%E7%99%BC%E7%94%9F%E9%81%8E%E4%BB%80%E9%BA%BC%E4%BA%8B/1650415601?i=1650415605",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "MC 張天賦",
+      "album": "反對無效 - Single",
+      "apple_music_id": "1569850022",
+      "url": "https://music.apple.com/hk/album/%E5%8F%8D%E5%B0%8D%E7%84%A1%E6%95%88/1569850021?i=1569850022",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 59,
@@ -776,47 +776,47 @@
       "album": "七里香",
       "apple_music_id": "1721450037",
       "url": "https://music.apple.com/hk/album/%E4%B8%83%E9%87%8C%E9%A6%99/1721450027?i=1721450037",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 60,
-      "title": "一路向北",
+      "title": "單車",
       "artists": [
-        "周杰倫"
+        "陳奕迅"
       ],
-      "artists_display": "周杰倫",
-      "album": "11月的蕭邦",
-      "apple_music_id": "1721454134",
-      "url": "https://music.apple.com/hk/album/%E4%B8%80%E8%B7%AF%E5%90%91%E5%8C%97/1721453716?i=1721454134",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "陳奕迅",
+      "album": "2013 陳奕迅 Music Life 精選",
+      "apple_music_id": "667921841",
+      "url": "https://music.apple.com/hk/album/%E5%96%AE%E8%BB%8A/667921627?i=667921841",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 61,
-      "title": "習慣失戀",
+      "title": "世一",
       "artists": [
-        "容祖兒"
+        "MC 張天賦"
       ],
-      "artists_display": "容祖兒",
-      "album": "Hopelessly Romantic Collection",
-      "apple_music_id": "756564663",
-      "url": "https://music.apple.com/hk/album/%E7%BF%92%E6%85%A3%E5%A4%B1%E6%88%80/756564625?i=756564663",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "MC 張天賦",
+      "album": "世一 - Single",
+      "apple_music_id": "1664796698",
+      "url": "https://music.apple.com/hk/album/%E4%B8%96%E4%B8%80/1664796684?i=1664796698",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 62,
-      "title": "國際孤獨等級",
+      "title": "Training Season",
       "artists": [
-        "Gareth.T"
+        "Dua Lipa"
       ],
-      "artists_display": "Gareth.T",
-      "album": "國際孤獨等級 - Single",
-      "apple_music_id": "1674509617",
-      "url": "https://music.apple.com/hk/album/%E5%9C%8B%E9%9A%9B%E5%AD%A4%E7%8D%A8%E7%AD%89%E7%B4%9A/1674509604?i=1674509617",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Dua Lipa",
+      "album": "Training Season - Single",
+      "apple_music_id": "1727526894",
+      "url": "https://music.apple.com/hk/album/training-season/1727526670?i=1727526894",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 63,
@@ -828,63 +828,38 @@
       "album": "From Justin: Collection of His First 3 Years",
       "apple_music_id": "929932601",
       "url": "https://music.apple.com/hk/album/%E7%BE%8E%E9%BA%97%E4%B9%8B%E6%9C%80/929932592?i=929932601",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 64,
-      "title": "無名氏",
+      "title": "expectations",
       "artists": [
-        "MC 張天賦"
+        "Olivia Rodrigo",
+        "Chappell Roan"
       ],
-      "artists_display": "MC 張天賦",
-      "album": "無名氏 - Single",
-      "apple_music_id": "1868628419",
-      "url": "https://music.apple.com/hk/album/%E7%84%A1%E5%90%8D%E6%B0%8F/1868628417?i=1868628419",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Olivia Rodrigo & Chappell Roan",
+      "album": "expectations - Single",
+      "apple_music_id": "6822390426",
+      "url": "https://music.apple.com/hk/album/expectations/6822390423?i=6822390426",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 65,
-      "title": "FALLEN ANGEL",
+      "title": "Patient Zero",
       "artists": [
-        "JENNIE"
+        "Taylor Swift"
       ],
-      "artists_display": "JENNIE",
-      "album": "Fallen Angel - EP",
-      "apple_music_id": "6804046959",
-      "url": "https://music.apple.com/hk/album/fallen-angel/6804046952?i=6804046959",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Taylor Swift",
+      "album": "The Life of a Showgirl: The Encore",
+      "apple_music_id": "6814997425",
+      "url": "https://music.apple.com/hk/album/patient-zero/6814997249?i=6814997425",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 66,
-      "title": "LEMONADE",
-      "artists": [
-        "aespa"
-      ],
-      "artists_display": "aespa",
-      "album": "LEMONADE - The 2nd Album (GISELLE Special Version)",
-      "apple_music_id": "6772115189",
-      "url": "https://music.apple.com/hk/album/lemonade/6772115182?i=6772115189",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 67,
-      "title": "無條件",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "準備中",
-      "apple_music_id": "1422674971",
-      "url": "https://music.apple.com/hk/album/%E7%84%A1%E6%A2%9D%E4%BB%B6/1422674966?i=1422674971",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 68,
       "title": "思覺失調",
       "artists": [
         "劉浩龍"
@@ -893,37 +868,11 @@
       "album": "Start Up",
       "apple_music_id": "1442590145",
       "url": "https://music.apple.com/hk/album/%E6%80%9D%E8%A6%BA%E5%A4%B1%E8%AA%BF/1442590142?i=1442590145",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 69,
-      "title": "滴滴金",
-      "artists": [
-        "CY陳宗澤"
-      ],
-      "artists_display": "CY陳宗澤",
-      "album": "滴滴金 - Single",
-      "apple_music_id": "1711239225",
-      "url": "https://music.apple.com/hk/album/%E6%BB%B4%E6%BB%B4%E9%87%91/1711239224?i=1711239225",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 70,
-      "title": "成日受傷的女人",
-      "artists": [
-        "Serrini"
-      ],
-      "artists_display": "Serrini",
-      "album": "成日受傷的女人 - Single",
-      "apple_music_id": "6811806052",
-      "url": "https://music.apple.com/hk/album/%E6%88%90%E6%97%A5%E5%8F%97%E5%82%B7%E7%9A%84%E5%A5%B3%E4%BA%BA/6811806045?i=6811806052",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 71,
+      "rank": 67,
       "title": "至少做一件離譜的事",
       "artists": [
         "Kiri T"
@@ -932,63 +881,50 @@
       "album": "至少做一件離譜的事 - Single",
       "apple_music_id": "1735659500",
       "url": "https://music.apple.com/hk/album/%E8%87%B3%E5%B0%91%E5%81%9A%E4%B8%80%E4%BB%B6%E9%9B%A2%E8%AD%9C%E7%9A%84%E4%BA%8B/1735659498?i=1735659500",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 72,
-      "title": "BiiiG",
+      "rank": 68,
+      "title": "習慣失戀",
       "artists": [
-        "BIGBANG"
+        "容祖兒"
       ],
-      "artists_display": "BIGBANG",
-      "album": "BiiiG - Single",
-      "apple_music_id": "6801365250",
-      "url": "https://music.apple.com/hk/album/biiig/6801365249?i=6801365250",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "容祖兒",
+      "album": "Hopelessly Romantic Collection",
+      "apple_music_id": "756564663",
+      "url": "https://music.apple.com/hk/album/%E7%BF%92%E6%85%A3%E5%A4%B1%E6%88%80/756564625?i=756564663",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 73,
-      "title": "穿波鞋的惡魔",
+      "rank": 69,
+      "title": "國際孤獨等級",
       "artists": [
-        "洪嘉豪"
+        "Gareth.T"
       ],
-      "artists_display": "洪嘉豪",
-      "album": "穿波鞋的惡魔 - Single",
-      "apple_music_id": "1883973607",
-      "url": "https://music.apple.com/hk/album/%E7%A9%BF%E6%B3%A2%E9%9E%8B%E7%9A%84%E6%83%A1%E9%AD%94/1883973469?i=1883973607",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Gareth.T",
+      "album": "國際孤獨等級 - Single",
+      "apple_music_id": "1674509617",
+      "url": "https://music.apple.com/hk/album/%E5%9C%8B%E9%9A%9B%E5%AD%A4%E7%8D%A8%E7%AD%89%E7%B4%9A/1674509604?i=1674509617",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 74,
-      "title": "尚有愛的資格",
+      "rank": 70,
+      "title": "無名氏",
       "artists": [
-        "陳柏宇"
+        "MC 張天賦"
       ],
-      "artists_display": "陳柏宇",
-      "album": "尚有愛的資格 - Single",
-      "apple_music_id": "6812360581",
-      "url": "https://music.apple.com/hk/album/%E5%B0%9A%E6%9C%89%E6%84%9B%E7%9A%84%E8%B3%87%E6%A0%BC/6812360577?i=6812360581",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "MC 張天賦",
+      "album": "無名氏 - Single",
+      "apple_music_id": "1868628419",
+      "url": "https://music.apple.com/hk/album/%E7%84%A1%E5%90%8D%E6%B0%8F/1868628417?i=1868628419",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 75,
-      "title": "太陽與地球",
-      "artists": [
-        "盧廣仲"
-      ],
-      "artists_display": "盧廣仲",
-      "album": "HeartBreakFast 傷心早餐店",
-      "apple_music_id": "1839368232",
-      "url": "https://music.apple.com/hk/album/%E5%A4%AA%E9%99%BD%E8%88%87%E5%9C%B0%E7%90%83/1839368226?i=1839368232",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 76,
+      "rank": 71,
       "title": "我們都是這樣長大的",
       "artists": [
         "鄭秀文"
@@ -997,89 +933,63 @@
       "album": "我們都是這樣長大的 - Single",
       "apple_music_id": "1469522319",
       "url": "https://music.apple.com/hk/album/%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF%E9%80%99%E6%A8%A3%E9%95%B7%E5%A4%A7%E7%9A%84/1469522314?i=1469522319",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 77,
-      "title": "爛泥",
+      "rank": 72,
+      "title": "Break-A-Way",
       "artists": [
-        "許志安"
+        "衛蘭"
       ],
-      "artists_display": "許志安",
-      "album": "正東10X10我至愛唱片: 許志安 爛泥",
-      "apple_music_id": "1443289315",
-      "url": "https://music.apple.com/hk/album/%E7%88%9B%E6%B3%A5/1443289309?i=1443289315",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "衛蘭",
+      "album": "Break-A-Way - Single",
+      "apple_music_id": "6819141878",
+      "url": "https://music.apple.com/hk/album/break-a-way/6819141871?i=6819141878",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 78,
-      "title": "hate that i made you love me",
+      "rank": 73,
+      "title": "你被影子甩了",
       "artists": [
-        "Ariana Grande"
+        "Gordon Flanders"
       ],
-      "artists_display": "Ariana Grande",
-      "album": "petal",
-      "apple_music_id": "6763656876",
-      "url": "https://music.apple.com/hk/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Gordon Flanders",
+      "album": "你被影子甩了 - Single",
+      "apple_music_id": "6821763798",
+      "url": "https://music.apple.com/hk/album/%E4%BD%A0%E8%A2%AB%E5%BD%B1%E5%AD%90%E7%94%A9%E4%BA%86/6821763792?i=6821763798",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 79,
-      "title": "SUN KISS",
+      "rank": 74,
+      "title": "太陽與地球",
       "artists": [
-        "TUIDE"
+        "盧廣仲"
       ],
-      "artists_display": "TUIDE",
-      "album": "TUNE & PLAY - EP",
-      "apple_music_id": "6795782855",
-      "url": "https://music.apple.com/hk/album/sun-kiss/6795782851?i=6795782855",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "盧廣仲",
+      "album": "HeartBreakFast 傷心早餐店",
+      "apple_music_id": "1839368232",
+      "url": "https://music.apple.com/hk/album/%E5%A4%AA%E9%99%BD%E8%88%87%E5%9C%B0%E7%90%83/1839368226?i=1839368232",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 80,
-      "title": "東邪",
+      "rank": 75,
+      "title": "說好的幸福呢",
       "artists": [
-        "MC 張天賦"
+        "周杰倫"
       ],
-      "artists_display": "MC 張天賦",
-      "album": "Sweet & Sour",
-      "apple_music_id": "1825762068",
-      "url": "https://music.apple.com/hk/album/%E6%9D%B1%E9%82%AA/1825762060?i=1825762068",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "周杰倫",
+      "album": "魔杰座",
+      "apple_music_id": "1721460917",
+      "url": "https://music.apple.com/hk/album/%E8%AA%AA%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2/1721460694?i=1721460917",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 81,
-      "title": "一人之境 in C major",
-      "artists": [
-        "林家謙"
-      ],
-      "artists_display": "林家謙",
-      "album": "MAJOR IN MINOR",
-      "apple_music_id": "1564699117",
-      "url": "https://music.apple.com/hk/album/%E4%B8%80%E4%BA%BA%E4%B9%8B%E5%A2%83-in-c-major/1564698755?i=1564699117",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 82,
-      "title": "tunnel vision",
-      "artists": [
-        "Gareth.T"
-      ],
-      "artists_display": "Gareth.T",
-      "album": "tunnel vision - Single",
-      "apple_music_id": "6804624453",
-      "url": "https://music.apple.com/hk/album/tunnel-vision/6804624451?i=6804624453",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 83,
+      "rank": 76,
       "title": "APT.",
       "artists": [
         "ROSÉ",
@@ -1089,37 +999,24 @@
       "album": "APT. - Single",
       "apple_music_id": "1773452221",
       "url": "https://music.apple.com/hk/album/apt/1773452219?i=1773452221",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 84,
-      "title": "戀愛腦之死",
+      "rank": 77,
+      "title": "LEMONADE",
       "artists": [
-        "陳健安"
+        "aespa"
       ],
-      "artists_display": "陳健安",
-      "album": "戀愛腦之死 - Single",
-      "apple_music_id": "1744336999",
-      "url": "https://music.apple.com/hk/album/%E6%88%80%E6%84%9B%E8%85%A6%E4%B9%8B%E6%AD%BB/1744336998?i=1744336999",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "aespa",
+      "album": "LEMONADE - The 2nd Album (GISELLE Special Version)",
+      "apple_music_id": "6772115189",
+      "url": "https://music.apple.com/hk/album/lemonade/6772115182?i=6772115189",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 85,
-      "title": "安靜",
-      "artists": [
-        "周杰倫"
-      ],
-      "artists_display": "周杰倫",
-      "album": "范特西",
-      "apple_music_id": "1721454553",
-      "url": "https://music.apple.com/hk/album/%E5%AE%89%E9%9D%9C/1721454234?i=1721454553",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 86,
+      "rank": 78,
       "title": "我不難過",
       "artists": [
         "孫燕姿"
@@ -1128,11 +1025,37 @@
       "album": "2 Her",
       "apple_music_id": "578524987",
       "url": "https://music.apple.com/hk/album/%E6%88%91%E4%B8%8D%E9%9B%A3%E9%81%8E/578524971?i=578524987",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 87,
+      "rank": 79,
+      "title": "滴滴金",
+      "artists": [
+        "CY陳宗澤"
+      ],
+      "artists_display": "CY陳宗澤",
+      "album": "滴滴金 - Single",
+      "apple_music_id": "1711239225",
+      "url": "https://music.apple.com/hk/album/%E6%BB%B4%E6%BB%B4%E9%87%91/1711239224?i=1711239225",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 80,
+      "title": "FALLEN ANGEL",
+      "artists": [
+        "JENNIE"
+      ],
+      "artists_display": "JENNIE",
+      "album": "Fallen Angel - EP",
+      "apple_music_id": "6804046959",
+      "url": "https://music.apple.com/hk/album/fallen-angel/6804046952?i=6804046959",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 81,
       "title": "只要和你在一起",
       "artists": [
         "連詩雅"
@@ -1141,77 +1064,24 @@
       "album": "Once Said - EP",
       "apple_music_id": "1820726274",
       "url": "https://music.apple.com/hk/album/%E5%8F%AA%E8%A6%81%E5%92%8C%E4%BD%A0%E5%9C%A8%E4%B8%80%E8%B5%B7/1820726266?i=1820726274",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 88,
-      "title": "說好的幸福呢",
+      "rank": 82,
+      "title": "SUN KISS",
       "artists": [
-        "周杰倫"
+        "TUIDE"
       ],
-      "artists_display": "周杰倫",
-      "album": "魔杰座",
-      "apple_music_id": "1721460917",
-      "url": "https://music.apple.com/hk/album/%E8%AA%AA%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2/1721460694?i=1721460917",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "TUIDE",
+      "album": "TUNE & PLAY - EP",
+      "apple_music_id": "6795782855",
+      "url": "https://music.apple.com/hk/album/sun-kiss/6795782851?i=6795782855",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 89,
-      "title": "在錯誤的宇宙尋找愛",
-      "artists": [
-        "陳健安"
-      ],
-      "artists_display": "陳健安",
-      "album": "在錯誤的宇宙尋找愛 - Single",
-      "apple_music_id": "1467214368",
-      "url": "https://music.apple.com/hk/album/%E5%9C%A8%E9%8C%AF%E8%AA%A4%E7%9A%84%E5%AE%87%E5%AE%99%E5%B0%8B%E6%89%BE%E6%84%9B/1467214363?i=1467214368",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 90,
-      "title": "就算我錯漏百出",
-      "artists": [
-        "Kiri T"
-      ],
-      "artists_display": "Kiri T",
-      "album": "就算我錯漏百出 - Single",
-      "apple_music_id": "6820859973",
-      "url": "https://music.apple.com/hk/album/%E5%B0%B1%E7%AE%97%E6%88%91%E9%8C%AF%E6%BC%8F%E7%99%BE%E5%87%BA/6820859972?i=6820859973",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 91,
-      "title": "Break-A-Way",
-      "artists": [
-        "衛蘭"
-      ],
-      "artists_display": "衛蘭",
-      "album": "Break-A-Way - Single",
-      "apple_music_id": "6819141878",
-      "url": "https://music.apple.com/hk/album/break-a-way/6819141871?i=6819141878",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 92,
-      "title": "Die With A Smile",
-      "artists": [
-        "Lady Gaga",
-        "Bruno Mars"
-      ],
-      "artists_display": "Lady Gaga & Bruno Mars",
-      "album": "Die With A Smile - Single",
-      "apple_music_id": "1762656732",
-      "url": "https://music.apple.com/hk/album/die-with-a-smile/1762656724?i=1762656732",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 93,
+      "rank": 83,
       "title": "Golden",
       "artists": [
         "HUNTR/X",
@@ -1224,11 +1094,102 @@
       "album": "It Girl Energy",
       "apple_music_id": "1867654215",
       "url": "https://music.apple.com/hk/album/golden/1867654212?i=1867654215",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 94,
+      "rank": 84,
+      "title": "東邪",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "album": "Sweet & Sour",
+      "apple_music_id": "1825762068",
+      "url": "https://music.apple.com/hk/album/%E6%9D%B1%E9%82%AA/1825762060?i=1825762068",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 85,
+      "title": "穿波鞋的惡魔",
+      "artists": [
+        "洪嘉豪"
+      ],
+      "artists_display": "洪嘉豪",
+      "album": "穿波鞋的惡魔 - Single",
+      "apple_music_id": "1883973607",
+      "url": "https://music.apple.com/hk/album/%E7%A9%BF%E6%B3%A2%E9%9E%8B%E7%9A%84%E6%83%A1%E9%AD%94/1883973469?i=1883973607",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 86,
+      "title": "hate that i made you love me",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "artists_display": "Ariana Grande",
+      "album": "petal",
+      "apple_music_id": "6763656876",
+      "url": "https://music.apple.com/hk/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 87,
+      "title": "安靜",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "album": "范特西",
+      "apple_music_id": "1721454553",
+      "url": "https://music.apple.com/hk/album/%E5%AE%89%E9%9D%9C/1721454234?i=1721454553",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 88,
+      "title": "一人之境 in C major",
+      "artists": [
+        "林家謙"
+      ],
+      "artists_display": "林家謙",
+      "album": "MAJOR IN MINOR",
+      "apple_music_id": "1564699117",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E4%BA%BA%E4%B9%8B%E5%A2%83-in-c-major/1564698755?i=1564699117",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 89,
+      "title": "四月物語",
+      "artists": [
+        "林家謙"
+      ],
+      "artists_display": "林家謙",
+      "album": "四月物語 - Single",
+      "apple_music_id": "1807943857",
+      "url": "https://music.apple.com/hk/album/%E5%9B%9B%E6%9C%88%E7%89%A9%E8%AA%9E/1807943856?i=1807943857",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 90,
+      "title": "我的快樂時代",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "我的快樂時代",
+      "apple_music_id": "892745294",
+      "url": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3/892745229?i=892745294",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 91,
       "title": "⁠我很小朋友",
       "artists": [
         "Gareth.T"
@@ -1237,50 +1198,77 @@
       "album": "THE PROTÉGÉ",
       "apple_music_id": "1883630672",
       "url": "https://music.apple.com/hk/album/%E6%88%91%E5%BE%88%E5%B0%8F%E6%9C%8B%E5%8F%8B/1883630666?i=1883630672",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 92,
+      "title": "在錯誤的宇宙尋找愛",
+      "artists": [
+        "陳健安"
+      ],
+      "artists_display": "陳健安",
+      "album": "在錯誤的宇宙尋找愛 - Single",
+      "apple_music_id": "1467214368",
+      "url": "https://music.apple.com/hk/album/%E5%9C%A8%E9%8C%AF%E8%AA%A4%E7%9A%84%E5%AE%87%E5%AE%99%E5%B0%8B%E6%89%BE%E6%84%9B/1467214363?i=1467214368",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 93,
+      "title": "人來人往",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "album": "2013 陳奕迅 Music Life 精選",
+      "apple_music_id": "667921842",
+      "url": "https://music.apple.com/hk/album/%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80/667921627?i=667921842",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 94,
+      "title": "戀愛腦之死",
+      "artists": [
+        "陳健安"
+      ],
+      "artists_display": "陳健安",
+      "album": "戀愛腦之死 - Single",
+      "apple_music_id": "1744336999",
+      "url": "https://music.apple.com/hk/album/%E6%88%80%E6%84%9B%E8%85%A6%E4%B9%8B%E6%AD%BB/1744336998?i=1744336999",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 95,
-      "title": "Haru Haru",
+      "title": "成日受傷的女人",
       "artists": [
-        "BIGBANG"
+        "Serrini"
       ],
-      "artists_display": "BIGBANG",
-      "album": "Stand Up - EP",
-      "apple_music_id": "1346470976",
-      "url": "https://music.apple.com/hk/album/haru-haru/1346470974?i=1346470976",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Serrini",
+      "album": "成日受傷的女人 - Single",
+      "apple_music_id": "6811806052",
+      "url": "https://music.apple.com/hk/album/%E6%88%90%E6%97%A5%E5%8F%97%E5%82%B7%E7%9A%84%E5%A5%B3%E4%BA%BA/6811806045?i=6811806052",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 96,
-      "title": "三生有幸",
+      "title": "Die With A Smile",
       "artists": [
-        "周殷廷"
+        "Lady Gaga",
+        "Bruno Mars"
       ],
-      "artists_display": "周殷廷",
-      "album": "三生有幸 - Single",
-      "apple_music_id": "1731778084",
-      "url": "https://music.apple.com/hk/album/%E4%B8%89%E7%94%9F%E6%9C%89%E5%B9%B8/1731778074?i=1731778084",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "artists_display": "Lady Gaga & Bruno Mars",
+      "album": "Die With A Smile - Single",
+      "apple_music_id": "1762656732",
+      "url": "https://music.apple.com/hk/album/die-with-a-smile/1762656724?i=1762656732",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
       "rank": 97,
-      "title": "心血",
-      "artists": [
-        "許志安"
-      ],
-      "artists_display": "許志安",
-      "album": "Heart",
-      "apple_music_id": "892729677",
-      "url": "https://music.apple.com/hk/album/%E5%BF%83%E8%A1%80/892729667?i=892729677",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 98,
       "title": "Whiplash",
       "artists": [
         "aespa"
@@ -1289,24 +1277,11 @@
       "album": "Whiplash - The 5th Mini Album - EP",
       "apple_music_id": "1772644601",
       "url": "https://music.apple.com/hk/album/whiplash/1772644600?i=1772644601",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     },
     {
-      "rank": 99,
-      "title": "單車",
-      "artists": [
-        "陳奕迅"
-      ],
-      "artists_display": "陳奕迅",
-      "album": "2013 陳奕迅 Music Life 精選",
-      "apple_music_id": "667921841",
-      "url": "https://music.apple.com/hk/album/%E5%96%AE%E8%BB%8A/667921627?i=667921841",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
-    },
-    {
-      "rank": 100,
+      "rank": 98,
       "title": "GO HARD",
       "artists": [
         "MEOVV"
@@ -1315,8 +1290,34 @@
       "album": "GO HARD - Single",
       "apple_music_id": "6817645175",
       "url": "https://music.apple.com/hk/album/go-hard/6817645174?i=6817645175",
-      "snapshot_date": "2026-10-17",
-      "snapshot_at": "2026-10-17T08:35:38+08:00"
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 99,
+      "title": "BiiiG",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "album": "BiiiG - Single",
+      "apple_music_id": "6801365250",
+      "url": "https://music.apple.com/hk/album/biiig/6801365249?i=6801365250",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
+    },
+    {
+      "rank": 100,
+      "title": "珊瑚海 (feat. 梁心頤)",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "album": "11月的蕭邦",
+      "apple_music_id": "1721454126",
+      "url": "https://music.apple.com/hk/album/%E7%8F%8A%E7%91%9A%E6%B5%B7-feat-%E6%A2%81%E5%BF%83%E9%A0%A4/1721453716?i=1721454126",
+      "snapshot_date": "2026-10-18",
+      "snapshot_at": "2026-10-18T08:40:15+08:00"
     }
   ]
 }
