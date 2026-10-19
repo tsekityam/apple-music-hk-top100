@@ -2,6 +2,7 @@
 
 Daily #1 song from Apple Music Top 100: Hong Kong.
 
+- **2026-10-19** — #1: NEON — A2O & A2O LITE (100 tracks, source=public_page_scrape)
 - **2026-10-18** — #1: NEON — A2O & A2O LITE (100 tracks, source=public_page_scrape)
 - **2026-10-17** — #1: NEON — A2O & A2O LITE (100 tracks, source=public_page_scrape)
 - **2026-10-16** — #1: 淺粉紅 pale pink — Gareth.T (100 tracks, source=public_page_scrape)
