@@ -1,6 +1,6 @@
-# Apple Music Top 100: Hong Kong — 2026-10-20
+# Apple Music Top 100: Hong Kong — 2026-10-21
 
-- Snapshot at: `2026-10-20T08:37:12+08:00` (Asia/Hong_Kong)
+- Snapshot at: `2026-10-21T08:36:06+08:00` (Asia/Hong_Kong)
 - Source: `public_page_scrape`
 - Tracks: 100
 - Playlist: https://music.apple.com/hk/playlist/top-100-hong-kong/pl.7f35cffa10b54b91aab128ccc547f6ef
@@ -14,96 +14,96 @@
 | 5 | 未深入但了解 | MC 張天賦 | 未深入但了解 - Single |
 | 6 | 男人怎可以 | MC 張天賦 | 男人怎可以 - Single |
 | 7 | 歲月如歌 | 陳奕迅 | Live for Today |
-| 8 | 陀飛輪 | 陳奕迅 | Time Flies 2010 - EP |
-| 9 | 緊急聯絡人 | Gareth.T | 緊急聯絡人 - Single |
-| 10 | 至少相擁沒錯 | MC 張天賦 | 至少相擁沒錯 - Single |
-| 11 | 旋轉木馬 | 米爺 & 黃淑蔓 | 旋轉木馬 - Single |
-| 12 | 我看見今晚的月色很美,你呢? | 晚安莉莉 | Goodnight, Lillie. |
-| 13 | 懷疑人生 | MC 張天賦 | 懷疑人生 - Single |
+| 8 | 緊急聯絡人 | Gareth.T | 緊急聯絡人 - Single |
+| 9 | 至少相擁沒錯 | MC 張天賦 | 至少相擁沒錯 - Single |
+| 10 | 陀飛輪 | 陳奕迅 | Time Flies 2010 - EP |
+| 11 | 我看見今晚的月色很美,你呢? | 晚安莉莉 | Goodnight, Lillie. |
+| 12 | 懷疑人生 | MC 張天賦 | 懷疑人生 - Single |
+| 13 | 陽光普照 | 容祖兒 | 陽光普照 - Single |
 | 14 | 不在場 | 馮允謙 | 不在場 - Single |
-| 15 | 陽光普照 | 容祖兒 | 陽光普照 - Single |
-| 16 | 記憶棉 | MC 張天賦 | 記憶棉 - Single |
-| 17 | 葡萄成熟時 | 陳奕迅 | U 87 |
-| 18 | 任我行 | 陳奕迅 | The Key |
-| 19 | 昨遲人 | 許志安 | 廣東經典101 |
-| 20 | 十面埋伏 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
-| 21 | K歌之王 | 陳奕迅 | 陳奕迅 廣東精選 |
-| 22 | 沙龍 | 陳奕迅 | H3M (Remastered 2019) |
-| 23 | Nicole Kidman | ADÉLA | PRIMA |
-| 24 | 明年今日 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
-| 25 | 富士山下 (Eason音樂互動Free Party) | 陳奕迅 | What's Going On...? (2nd Edition) |
-| 26 | 黑玻璃 | 洪嘉豪 | 黑玻璃 - Single |
-| 27 | 淺粉紅 baby pink | Gareth.T | 淺粉紅 - Single |
+| 15 | 記憶棉 | MC 張天賦 | 記憶棉 - Single |
+| 16 | Nicole Kidman | ADÉLA | PRIMA |
+| 17 | 旋轉木馬 | 米爺 & 黃淑蔓 | 旋轉木馬 - Single |
+| 18 | 葡萄成熟時 | 陳奕迅 | U 87 |
+| 19 | 任我行 | 陳奕迅 | The Key |
+| 20 | 就算我錯漏百出 | Kiri T | 就算我錯漏百出 - Single |
+| 21 | 十面埋伏 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
+| 22 | 黑玻璃 | 洪嘉豪 | 黑玻璃 - Single |
+| 23 | 昨遲人 | 許志安 | 廣東經典101 |
+| 24 | K歌之王 | 陳奕迅 | 陳奕迅 廣東精選 |
+| 25 | Looks Can Kill | IVE | Looks Can Kill - Single |
+| 26 | 沙龍 | 陳奕迅 | H3M (Remastered 2019) |
+| 27 | 明年今日 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
 | 28 | 老派約會之必要 | MC 張天賦 | 老派約會之必要 |
-| 29 | 玻璃 | Gareth.T | 玻璃 - Single |
-| 30 | Shall We Talk | 陳奕迅 | Shall We Dance? Shall We Talk! |
-| 31 | 命硬 | 側田 | 側田 |
-| 32 | 就算我錯漏百出 | Kiri T | 就算我錯漏百出 - Single |
-| 33 | 永久損毀 | MC 張天賦 & 陳蕾 | 永久損毀 - Single |
-| 34 | 戒糖失敗 | 洪嘉豪 | 戒糖失敗 - Single |
-| 35 | 擱淺 | 周杰倫 | 七里香 |
-| 36 | CRASH | ALLDAY PROJECT | CRASH - EP |
-| 37 | 無條件 | 陳奕迅 | 準備中 |
-| 38 | 小心碰頭 | MC 張天賦 | 小心碰頭 - Single |
-| 39 | 心之科學 | 容祖兒 | 心之科學 - Single |
-| 40 | 青春告別式 | 張敬軒 | 青春告別式 - Single |
-| 41 | 閉目入神 | 鄭中基 | 正宗K (新曲+精選) |
-| 42 | 晴天 | 周杰倫 | 葉惠美 |
-| 43 | Housewife | Tate McRae | Housewife - Single |
-| 44 | 不該 (feat. 張惠妹) | 周杰倫 | 周杰倫的床邊故事 |
-| 45 | I’m gonna TOESA (feat. Kian84) | JEON SOYEON | What a Wonderful Life |
-| 46 | 甲乙丙丁Strangers | 李佳薇 | 甲乙丙丁Strangers - Single |
-| 47 | 單車 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
+| 29 | 戒糖失敗 | 洪嘉豪 | 戒糖失敗 - Single |
+| 30 | 玻璃 | Gareth.T | 玻璃 - Single |
+| 31 | 淺粉紅 baby pink | Gareth.T | 淺粉紅 - Single |
+| 32 | Housewife | Tate McRae | Housewife - Single |
+| 33 | Birthday Wish | NMIXX | Strange Muse - EP |
+| 34 | 永久損毀 | MC 張天賦 & 陳蕾 | 永久損毀 - Single |
+| 35 | 富士山下 (Eason音樂互動Free Party) | 陳奕迅 | What's Going On...? (2nd Edition) |
+| 36 | 命硬 | 側田 | 側田 |
+| 37 | Shall We Talk | 陳奕迅 | Shall We Dance? Shall We Talk! |
+| 38 | CRASH | ALLDAY PROJECT | CRASH - EP |
+| 39 | 小心碰頭 | MC 張天賦 | 小心碰頭 - Single |
+| 40 | 擱淺 | 周杰倫 | 七里香 |
+| 41 | 無條件 | 陳奕迅 | 準備中 |
+| 42 | I’m gonna TOESA (feat. Kian84) | JEON SOYEON | What a Wonderful Life |
+| 43 | 不該 (feat. 張惠妹) | 周杰倫 | 周杰倫的床邊故事 |
+| 44 | 甲乙丙丁Strangers | 李佳薇 | 甲乙丙丁Strangers - Single |
+| 45 | 心之科學 | 容祖兒 | 心之科學 - Single |
+| 46 | 晴天 | 周杰倫 | 葉惠美 |
+| 47 | 青春告別式 | 張敬軒 | 青春告別式 - Single |
 | 48 | 隱形遊樂場 | 張敬軒 | 隱形遊樂場 - Single |
-| 49 | 一百個未老先衰的方法 | MC 張天賦 | 一百個未老先衰的方法 - Single |
-| 50 | expectations | Olivia Rodrigo & Chappell Roan | expectations - Single |
-| 51 | 到此為止 | 連詩雅 | Movin' On - EP |
-| 52 | 離家出走 | 衛蘭 | Do U Know... |
-| 53 | 抽 | MC 張天賦 | 抽 - Single |
-| 54 | 隔牆有耳 | MC 張天賦 | TREBLE |
-| 55 | 七里香 | 周杰倫 | 七里香 |
-| 56 | 到底發生過什麼事 | Dear Jane | 到底發生過什麼事 - Single |
-| 57 | BAD | ATEEZ | GOLDEN HOUR : Part.5 - EP |
+| 49 | 閉目入神 | 鄭中基 | 正宗K (新曲+精選) |
+| 50 | 到此為止 | 連詩雅 | Movin' On - EP |
+| 51 | 隔牆有耳 | MC 張天賦 | TREBLE |
+| 52 | 單車 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
+| 53 | 一百個未老先衰的方法 | MC 張天賦 | 一百個未老先衰的方法 - Single |
+| 54 | 抽 | MC 張天賦 | 抽 - Single |
+| 55 | 離家出走 | 衛蘭 | Do U Know... |
+| 56 | 七里香 | 周杰倫 | 七里香 |
+| 57 | 放棄的界限 | 張敬軒 | 放棄的界限 - Single |
 | 58 | 靈魂相願 | 張敬軒 | 靈魂相願 - Single |
-| 59 | 我的快樂時代 | 陳奕迅 | 我的快樂時代 |
-| 60 | 一路向北 | 周杰倫 | 11月的蕭邦 |
-| 61 | 美麗之最 | 側田 | From Justin: Collection of His First 3 Years |
-| 62 | 放棄的界限 | 張敬軒 | 放棄的界限 - Single |
-| 63 | 習慣失戀 | 容祖兒 | Hopelessly Romantic Collection |
-| 64 | APT. | ROSÉ & Bruno Mars | New Pop Arrivals |
-| 65 | 反對無效 | MC 張天賦 | 反對無效 - Single |
-| 66 | 至少做一件離譜的事 | Kiri T | 至少做一件離譜的事 - Single |
-| 67 | 世一 | MC 張天賦 | 世一 - Single |
-| 68 | 人來人往 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
-| 69 | 思覺失調 | 劉浩龍 | Start Up |
-| 70 | LEMONADE | aespa | LEMONADE - The 2nd Album (GISELLE Special Version) |
-| 71 | 你被影子甩了 | Gordon Flanders | 你被影子甩了 - Single |
-| 72 | 太陽與地球 | 盧廣仲 | HeartBreakFast 傷心早餐店 |
-| 73 | 珊瑚海 (feat. 梁心頤) | 周杰倫 | 11月的蕭邦 |
-| 74 | 無名氏 | MC 張天賦 | 無名氏 - Single |
-| 75 | Training Season | Dua Lipa | Training Season - Single |
-| 76 | 說好的幸福呢 | 周杰倫 | 魔杰座 |
-| 77 | 國際孤獨等級 | Gareth.T | 國際孤獨等級 - Single |
-| 78 | Golden | HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast | It Girl Energy |
-| 79 | Less than a Lover | JENNIE | Less than a Lover - Single |
-| 80 | 最佳損友 | 陳奕迅 | Life Continues |
-| 81 | 安靜 | 周杰倫 | 范特西 |
-| 82 | Patient Zero | Taylor Swift | The Life of a Showgirl: The Encore |
-| 83 | 一步一生 | 許志安 | My Story |
-| 84 | 我們都是這樣長大的 | 鄭秀文 | 我們都是這樣長大的 - Single |
-| 85 | 我不難過 | 孫燕姿 | 2 Her |
-| 86 | ⁠我很小朋友 | Gareth.T | THE PROTÉGÉ |
-| 87 | 別人的地獄 | CY陳宗澤 | 別人的地獄 - Single |
-| 88 | hate that i made you love me | Ariana Grande | hate that i made you love me - EP |
-| 89 | Die With A Smile | Lady Gaga & Bruno Mars | Die With A Smile - Single |
-| 90 | FALLEN ANGEL | JENNIE | Fallen Angel - EP |
-| 91 | 滴滴金 | CY陳宗澤 | 滴滴金 - Single |
-| 92 | 在錯誤的宇宙尋找愛 | 陳健安 | 在錯誤的宇宙尋找愛 - Single |
-| 93 | 一人之境 in C major | 林家謙 | MAJOR IN MINOR |
-| 94 | 穿波鞋的惡魔 | 洪嘉豪 | 穿波鞋的惡魔 - Single |
-| 95 | 只要和你在一起 | 連詩雅 | Once Said - EP |
-| 96 | 一場誤會 | 衛蘭 | My Love |
-| 97 | 粵語殘片 | 陳奕迅 | What's Going On...? |
-| 98 | 告白氣球 | 周杰倫 | 周杰倫的床邊故事 |
-| 99 | Break-A-Way | 衛蘭 | Break-A-Way - Single |
-| 100 | 戀愛腦之死 | 陳健安 | 戀愛腦之死 - Single |
+| 59 | 到底發生過什麼事 | Dear Jane | 到底發生過什麼事 - Single |
+| 60 | expectations | Olivia Rodrigo & Chappell Roan | expectations - Single |
+| 61 | 你被影子甩了 | Gordon Flanders | 你被影子甩了 - Single |
+| 62 | 一路向北 | 周杰倫 | 11月的蕭邦 |
+| 63 | 至少做一件離譜的事 | Kiri T | 至少做一件離譜的事 - Single |
+| 64 | 反對無效 | MC 張天賦 | 反對無效 - Single |
+| 65 | 世一 | MC 張天賦 | 世一 - Single |
+| 66 | Training Season | Dua Lipa | PRIDE ARGENTINA 2024 VOL.II |
+| 67 | 別人的地獄 | CY陳宗澤 | 別人的地獄 - Single |
+| 68 | BAD | ATEEZ | GOLDEN HOUR : Part.5 - EP |
+| 69 | 美麗之最 | 側田 | From Justin: Collection of His First 3 Years |
+| 70 | Patient Zero | Taylor Swift | The Life of a Showgirl: The Encore |
+| 71 | 太陽與地球 | 盧廣仲 | HeartBreakFast 傷心早餐店 |
+| 72 | 珊瑚海 (feat. 梁心頤) | 周杰倫 | 11月的蕭邦 |
+| 73 | 我的快樂時代 | 陳奕迅 | 我的快樂時代 |
+| 74 | APT. | ROSÉ & Bruno Mars | New Pop Arrivals |
+| 75 | 習慣失戀 | 容祖兒 | Hopelessly Romantic Collection |
+| 76 | 安靜 | 周杰倫 | 范特西 |
+| 77 | Less than a Lover | JENNIE | Less than a Lover - Single |
+| 78 | 一場誤會 | 衛蘭 | My Love |
+| 79 | 說好的幸福呢 | 周杰倫 | 魔杰座 |
+| 80 | 人來人往 | 陳奕迅 | 2013 陳奕迅 Music Life 精選 |
+| 81 | 無名氏 | MC 張天賦 | 無名氏 - Single |
+| 82 | LEMONADE | aespa | LEMONADE - The 2nd Album (GISELLE Special Version) |
+| 83 | 我不難過 | 孫燕姿 | 2 Her |
+| 84 | 國際孤獨等級 | Gareth.T | 國際孤獨等級 - Single |
+| 85 | Golden | HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast | It Girl Energy |
+| 86 | 滴滴金 | CY陳宗澤 | 滴滴金 - Single |
+| 87 | 思覺失調 | 劉浩龍 | Start Up |
+| 88 | 楓 | 周杰倫 | 11月的蕭邦 |
+| 89 | ⁠我很小朋友 | Gareth.T | THE PROTÉGÉ |
+| 90 | 我們都是這樣長大的 | 鄭秀文 | 我們都是這樣長大的 - Single |
+| 91 | Break-A-Way | 衛蘭 | Break-A-Way - Single |
+| 92 | 最佳損友 | 陳奕迅 | Life Continues |
+| 93 | 在錯誤的宇宙尋找愛 | 陳健安 | 在錯誤的宇宙尋找愛 - Single |
+| 94 | FALLEN ANGEL | JENNIE | Fallen Angel - EP |
+| 95 | 一人之境 in C major | 林家謙 | MAJOR IN MINOR |
+| 96 | 只要和你在一起 | 連詩雅 | Once Said - EP |
+| 97 | 穿波鞋的惡魔 | 洪嘉豪 | 穿波鞋的惡魔 - Single |
+| 98 | 四月物語 | 林家謙 | 四月物語 - Single |
+| 99 | Die With A Smile | Lady Gaga & Bruno Mars | Die With A Smile - Single |
+| 100 | 告白氣球 | 周杰倫 | 周杰倫的床邊故事 |
