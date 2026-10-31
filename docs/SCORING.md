@@ -145,9 +145,22 @@ Scoring answers “who accumulated the most chart value?” Ordinal year-end ans
 ## How to run
 
 ```bash
+python3 scripts/score_report.py --week 2026-W43
 python3 scripts/score_report.py --month 2026-10
 python3 scripts/score_report.py --year 2026
 python3 scripts/score_report.py --from 2026-09-20 --to 2026-10-31
 ```
 
-Writes Markdown + JSON under `data/reports/` (e.g. `2026-10.scores.md` / `2026-10.scores.json`).
+Writes Markdown + JSON under `data/reports/`:
+
+| Period | Files |
+| --- | --- |
+| ISO week (Mon–Sun) | `YYYY-Www.scores.md` / `.json` |
+| Calendar month | `YYYY-MM.scores.md` / `.json` |
+| Calendar year | `YYYY.scores.md` / `.json` |
+
+Week/month/year modes require the period **end-date** snapshot (`Sunday` / last day of month / `Dec 31`) unless `--allow-incomplete` is passed.
+
+### Automation
+
+Daily workflow (`.github/workflows/daily-snapshot.yml`) runs these **after** a successful snapshot for date **D**, not on a separate blind cron: Sunday → week; month-end → month; 31 Dec → year. See README for `workflow_dispatch` manual regen.

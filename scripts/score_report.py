@@ -16,7 +16,7 @@ import math
 import re
 import sys
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +25,8 @@ HISTORY_DIR = REPO_ROOT / "data" / "history"
 REPORTS_DIR = REPO_ROOT / "data" / "reports"
 
 from year_end_report import parse_date, song_key  # noqa: E402  (same scripts/ dir on path)
+
+WEEK_RE = re.compile(r"^(\d{4})-W(\d{2})$", re.IGNORECASE)
 
 
 def group_step(rank: int) -> int:
@@ -60,11 +62,53 @@ def normalize_artist_key(name: str) -> str:
     return name.strip().casefold()
 
 
+def parse_week(s: str) -> str:
+    m = WEEK_RE.fullmatch(s.strip())
+    if not m:
+        raise argparse.ArgumentTypeError("week must be YYYY-Www (ISO week), e.g. 2026-W43")
+    year, week = int(m.group(1)), int(m.group(2))
+    try:
+        date.fromisocalendar(year, week, 1)
+    except ValueError as e:
+        raise argparse.ArgumentTypeError(f"invalid ISO week: {s}") from e
+    return f"{year}-W{week:02d}"
+
+
+def week_bounds(week: str) -> tuple[date, date]:
+    """Inclusive Monday–Sunday for an ISO week label YYYY-Www."""
+    m = WEEK_RE.fullmatch(week)
+    assert m
+    year, w = int(m.group(1)), int(m.group(2))
+    start = date.fromisocalendar(year, w, 1)
+    end = date.fromisocalendar(year, w, 7)
+    return start, end
+
+
+def month_bounds(month: str) -> tuple[date, date]:
+    y_str, m_str = month.split("-", 1)
+    year, mon = int(y_str), int(m_str)
+    start = date(year, mon, 1)
+    if mon == 12:
+        end = date(year, 12, 31)
+    else:
+        end = date(year, mon + 1, 1) - timedelta(days=1)
+    return start, end
+
+
+def year_bounds(year: int) -> tuple[date, date]:
+    return date(year, 1, 1), date(year, 12, 31)
+
+
+def history_has_date(history_dir: Path, d: date) -> bool:
+    return (history_dir / f"{d.isoformat()}.json").is_file()
+
+
 def load_snapshots(
     *,
     history_dir: Path,
     year: int | None = None,
     month: str | None = None,
+    week: str | None = None,
     date_from: date | None = None,
     date_to: date | None = None,
 ) -> list[dict[str, Any]]:
@@ -80,6 +124,12 @@ def load_snapshots(
         if month is not None:
             y_str, m_str = month.split("-", 1)
             if snap_date.year != int(y_str) or snap_date.month != int(m_str):
+                continue
+        if week is not None:
+            iso = snap_date.isocalendar()
+            m = WEEK_RE.fullmatch(week)
+            assert m
+            if iso.year != int(m.group(1)) or iso.week != int(m.group(2)):
                 continue
         if date_from is not None and snap_date < date_from:
             continue
@@ -230,10 +280,13 @@ def period_label(
     *,
     year: int | None,
     month: str | None,
+    week: str | None,
     date_from: date | None,
     date_to: date | None,
     snap_dates: list[str],
 ) -> str:
+    if week:
+        return week
     if month:
         return month
     if year is not None and date_from is None and date_to is None:
@@ -246,9 +299,7 @@ def period_label(
 
 
 def report_stem(label: str) -> str:
-    # Prefer clean names: 2026-10.scores / 2026.scores / range_to_range.scores
-    if re.fullmatch(r"\d{4}-\d{2}", label) or re.fullmatch(r"\d{4}", label):
-        return f"{label}.scores"
+    # 2026-W43.scores / 2026-10.scores / 2026.scores / range_to_range.scores
     return f"{label}.scores"
 
 
@@ -343,6 +394,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Calendar month as YYYY-MM",
     )
     parser.add_argument(
+        "--week",
+        type=parse_week,
+        default=None,
+        help="ISO week as YYYY-Www (Mon–Sun)",
+    )
+    parser.add_argument(
         "--from",
         dest="date_from",
         type=parse_date,
@@ -355,6 +412,11 @@ def main(argv: list[str] | None = None) -> int:
         type=parse_date,
         default=None,
         help="Inclusive end date YYYY-MM-DD",
+    )
+    parser.add_argument(
+        "--allow-incomplete",
+        action="store_true",
+        help="Allow week/month/year reports even if the period end-date snapshot is missing",
     )
     parser.add_argument(
         "--history-dir",
@@ -378,11 +440,17 @@ def main(argv: list[str] | None = None) -> int:
     if args.date_from and args.date_to and args.date_from > args.date_to:
         print("ERROR: --from must be on or before --to", file=sys.stderr)
         return 1
-    if not any([args.year, args.month, args.date_from, args.date_to]):
+    if not any(
+        [args.year, args.month, args.week, args.date_from, args.date_to]
+    ):
         print(
-            "ERROR: provide --year and/or --month and/or --from/--to",
+            "ERROR: provide --year and/or --month and/or --week and/or --from/--to",
             file=sys.stderr,
         )
+        return 1
+
+    if args.week and (args.month or args.year):
+        print("ERROR: --week cannot be combined with --month/--year", file=sys.stderr)
         return 1
     if args.year and args.month:
         y_str, _ = args.month.split("-", 1)
@@ -390,10 +458,29 @@ def main(argv: list[str] | None = None) -> int:
             print("ERROR: --year does not match --month", file=sys.stderr)
             return 1
 
+    # Guard: week/month/year require the period's end-date snapshot unless overridden.
+    end_required: date | None = None
+    if args.week:
+        _, end_required = week_bounds(args.week)
+    elif args.month:
+        _, end_required = month_bounds(args.month)
+    elif args.year is not None and not args.month and not args.date_from and not args.date_to:
+        _, end_required = year_bounds(args.year)
+
+    if end_required is not None and not args.allow_incomplete:
+        if not history_has_date(args.history_dir, end_required):
+            print(
+                f"ERROR: missing period end snapshot {end_required.isoformat()}.json "
+                f"(pass --allow-incomplete to override)",
+                file=sys.stderr,
+            )
+            return 1
+
     snaps = load_snapshots(
         history_dir=args.history_dir,
-        year=None if args.month else args.year,
+        year=None if (args.month or args.week) else args.year,
         month=args.month,
+        week=args.week,
         date_from=args.date_from,
         date_to=args.date_to,
     )
@@ -406,18 +493,21 @@ def main(argv: list[str] | None = None) -> int:
     artists = aggregate_artists(snaps)
     snap_dates = sorted(s["snapshot_date"] for s in snaps if s.get("snapshot_date"))
     date_range = (snap_dates[0], snap_dates[-1])
-    label = period_label(
-        year=args.year,
-        month=args.month,
-        date_from=args.date_from,
-        date_to=args.date_to,
-        snap_dates=snap_dates,
-    )
-    # Prefer month label when --month is set.
-    if args.month:
+    if args.week:
+        label = args.week
+    elif args.month:
         label = args.month
-    elif args.year and not args.date_from and not args.date_to:
+    elif args.year is not None and not args.date_from and not args.date_to:
         label = str(args.year)
+    else:
+        label = period_label(
+            year=args.year,
+            month=args.month,
+            week=args.week,
+            date_from=args.date_from,
+            date_to=args.date_to,
+            snap_dates=snap_dates,
+        )
 
     md = render_markdown(
         label=label,
