@@ -6,12 +6,24 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
+      score_week:
+        description: "Generate score report for ISO week YYYY-Www (empty = auto from snapshot date if Sunday)"
+        type: string
+        default: ""
+      score_month:
+        description: "Generate score report for month YYYY-MM (empty = auto from snapshot date if month-end)"
+        type: string
+        default: ""
+      score_year:
+        description: "Generate 10-group score report for calendar year YYYY (empty = auto if snapshot is Dec 31)"
+        type: string
+        default: ""
       run_year_end:
-        description: "Also generate year-end report for the previous calendar year"
+        description: "Also generate ordinal year-end report (year_end_report.py)"
         type: boolean
         default: false
       year_end_year:
-        description: "Override year for year-end report (empty = previous year)"
+        description: "Override year for ordinal year-end report (empty = previous year)"
         type: string
         default: ""
 
@@ -39,38 +51,122 @@ jobs:
           APPLE_MUSIC_TOKEN: ${{ secrets.APPLE_MUSIC_TOKEN }}
         run: python3 scripts/snapshot.py
 
-      - name: Decide whether to run year-end report
-        id: year_end
+      - name: Decide score reports and ordinal year-end
+        id: decide
         env:
           EVENT_NAME: ${{ github.event_name }}
+          INPUT_SCORE_WEEK: ${{ inputs.score_week }}
+          INPUT_SCORE_MONTH: ${{ inputs.score_month }}
+          INPUT_SCORE_YEAR: ${{ inputs.score_year }}
           INPUT_RUN_YEAR_END: ${{ inputs.run_year_end }}
-          INPUT_YEAR: ${{ inputs.year_end_year }}
+          INPUT_YEAR_END_YEAR: ${{ inputs.year_end_year }}
         run: |
           set -euo pipefail
-          HKT_MD="$(TZ=Asia/Hong_Kong date +%m-%d)"
-          PREV_YEAR="$(TZ=Asia/Hong_Kong date +%Y)"
-          # On Jan 1, previous calendar year is current_year - 1
-          PREV_YEAR="$(python3 -c "from datetime import datetime; from zoneinfo import ZoneInfo; n=datetime.now(ZoneInfo('Asia/Hong_Kong')); print(n.year-1)")"
-          DO_YE=false
-          YEAR=""
-          if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${INPUT_RUN_YEAR_END}" == "true" ]]; then
-            DO_YE=true
-            if [[ -n "${INPUT_YEAR}" ]]; then
-              YEAR="${INPUT_YEAR}"
-            else
-              YEAR="${PREV_YEAR}"
-            fi
-          elif [[ "${HKT_MD}" == "01-01" ]]; then
-            DO_YE=true
-            YEAR="${PREV_YEAR}"
-          fi
-          echo "run=${DO_YE}" >> "$GITHUB_OUTPUT"
-          echo "year=${YEAR}" >> "$GITHUB_OUTPUT"
-          echo "today_hkt=$(TZ=Asia/Hong_Kong date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          python3 <<'PY' >> "$GITHUB_OUTPUT"
+          import calendar
+          import json
+          import os
+          from datetime import date, datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
 
-      - name: Year-end report
-        if: steps.year_end.outputs.run == 'true'
-        run: python3 scripts/year_end_report.py --year "${{ steps.year_end.outputs.year }}"
+          latest = json.loads(Path("data/latest.json").read_text(encoding="utf-8"))
+          d = date.fromisoformat(latest["snapshot_date"])
+          history = Path("data/history")
+
+          def has(day: date) -> bool:
+              return (history / f"{day.isoformat()}.json").is_file()
+
+          def uniq(xs: list[str]) -> list[str]:
+              seen: set[str] = set()
+              out: list[str] = []
+              for x in xs:
+                  if x and x not in seen:
+                      seen.add(x)
+                      out.append(x)
+              return out
+
+          iso = d.isocalendar()
+          week_label = f"{iso.year}-W{iso.week:02d}"
+          month_label = f"{d.year:04d}-{d.month:02d}"
+          year_label = str(d.year)
+          month_end = d.day == calendar.monthrange(d.year, d.month)[1]
+
+          event = os.environ.get("EVENT_NAME", "")
+          in_week = (os.environ.get("INPUT_SCORE_WEEK") or "").strip()
+          in_month = (os.environ.get("INPUT_SCORE_MONTH") or "").strip()
+          in_year = (os.environ.get("INPUT_SCORE_YEAR") or "").strip()
+
+          weeks: list[str] = []
+          months: list[str] = []
+          years: list[str] = []
+
+          # Auto after successful snapshot for date D (guard: end-date file must exist).
+          if iso.weekday == 7 and has(d):  # Sunday = end of ISO week (Mon–Sun)
+              weeks.append(week_label)
+          if month_end and has(d):
+              months.append(month_label)
+          if d.month == 12 and d.day == 31 and has(d):
+              years.append(year_label)
+
+          if event == "workflow_dispatch":
+              if in_week:
+                  weeks.append(in_week)
+              if in_month:
+                  months.append(in_month)
+              if in_year:
+                  years.append(in_year)
+
+          weeks, months, years = uniq(weeks), uniq(months), uniq(years)
+
+          # Ordinal year-end (alternate lexicographic report)
+          hkt = datetime.now(ZoneInfo("Asia/Hong_Kong"))
+          prev_year = str(hkt.year - 1)
+          do_ye = False
+          ye_year = ""
+          if event == "workflow_dispatch" and os.environ.get("INPUT_RUN_YEAR_END") == "true":
+              do_ye = True
+              ye_year = (os.environ.get("INPUT_YEAR_END_YEAR") or "").strip() or prev_year
+          elif f"{hkt.month:02d}-{hkt.day:02d}" == "01-01":
+              do_ye = True
+              ye_year = prev_year
+
+          print(f"snapshot_date={d.isoformat()}")
+          print(f"score_weeks={','.join(weeks)}")
+          print(f"score_months={','.join(months)}")
+          print(f"score_years={','.join(years)}")
+          print(f"run_scores={'true' if (weeks or months or years) else 'false'}")
+          print(f"run_year_end={'true' if do_ye else 'false'}")
+          print(f"year_end_year={ye_year}")
+          PY
+
+      - name: Score reports (weekly / monthly / yearly)
+        if: steps.decide.outputs.run_scores == 'true'
+        env:
+          SCORE_WEEKS: ${{ steps.decide.outputs.score_weeks }}
+          SCORE_MONTHS: ${{ steps.decide.outputs.score_months }}
+          SCORE_YEARS: ${{ steps.decide.outputs.score_years }}
+        run: |
+          set -euo pipefail
+          IFS=',' read -r -a WEEKS <<< "${SCORE_WEEKS}"
+          IFS=',' read -r -a MONTHS <<< "${SCORE_MONTHS}"
+          IFS=',' read -r -a YEARS <<< "${SCORE_YEARS}"
+          for w in "${WEEKS[@]}"; do
+            [[ -z "${w}" ]] && continue
+            python3 scripts/score_report.py --week "${w}"
+          done
+          for m in "${MONTHS[@]}"; do
+            [[ -z "${m}" ]] && continue
+            python3 scripts/score_report.py --month "${m}"
+          done
+          for y in "${YEARS[@]}"; do
+            [[ -z "${y}" ]] && continue
+            python3 scripts/score_report.py --year "${y}"
+          done
+
+      - name: Ordinal year-end report
+        if: steps.decide.outputs.run_year_end == 'true'
+        run: python3 scripts/year_end_report.py --year "${{ steps.decide.outputs.year_end_year }}"
 
       - name: Commit and push
         run: |
@@ -84,8 +180,14 @@ jobs:
           fi
           DATE="$(python3 -c "import json; print(json.load(open('data/latest.json'))['snapshot_date'])")"
           MSG="chore: snapshot Top 100 HK ${DATE}"
-          if [[ -n "$(git diff --staged --name-only | grep '^data/reports/' || true)" ]]; then
-            MSG="${MSG} (+ year-end report)"
+          REPORTS="$(git diff --staged --name-only | grep '^data/reports/' || true)"
+          if [[ -n "${REPORTS}" ]]; then
+            EXTRA=()
+            echo "${REPORTS}" | grep -q '\.scores\.' && EXTRA+=("scores")
+            echo "${REPORTS}" | grep -qv '\.scores\.' && EXTRA+=("ordinal year-end")
+            if [[ ${#EXTRA[@]} -gt 0 ]]; then
+              MSG="${MSG} (+ $(IFS=', '; echo "${EXTRA[*]}"))"
+            fi
           fi
           git commit -m "${MSG}"
           git push
