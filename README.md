@@ -17,10 +17,15 @@ data/
   latest.json          # most recent snapshot
   latest.md            # human-readable chart
   history/YYYY-MM-DD.json
-  reports/YYYY.md      # year-end Markdown (when generated)
+  reports/YYYY-MM.scores.md   # score reports (when generated)
+  reports/YYYY-MM.scores.json
+  reports/YYYY.md             # ordinal year-end (when generated)
   reports/YYYY.json
+docs/
+  SCORING.md
 scripts/
   snapshot.py
+  score_report.py
   year_end_report.py
 .github/workflows/daily-snapshot.yml
 ```
@@ -39,7 +44,21 @@ python3 scripts/snapshot.py --dry-run
 APPLE_MUSIC_TOKEN=… python3 scripts/snapshot.py --prefer-api
 ```
 
-## Year-end popularity ranking
+## Scoring
+
+Primary numeric popularity uses daily points `101 − R` (rank 1 = 100 … rank 100 = 1), summed over the period for songs; each credited artist gets the full daily points of a track (no 1/n split). Details and examples: [`docs/SCORING.md`](docs/SCORING.md).
+
+```bash
+python3 scripts/score_report.py --month 2026-10
+python3 scripts/score_report.py --year 2026
+python3 scripts/score_report.py --from 2026-09-20 --to 2026-10-31
+```
+
+Writes `data/reports/<period>.scores.md` and `.json` (top songs and top artists).
+
+## Year-end popularity ranking (ordinal alternate)
+
+Lexicographic year-end sort (not the primary score). Kept for comparison with the additive system above.
 
 ```bash
 python3 scripts/year_end_report.py --year 2026
