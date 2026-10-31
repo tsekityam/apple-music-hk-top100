@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Popularity score reports from daily Top 100 HK snapshots.
 
-Daily points: points = 101 - R for rank R in 1..100.
-Song period score: sum of daily points over the selected range.
-Artist period score: every credited artist gets the full daily points
-(no 1/n split). See docs/SCORING.md.
+Daily points use 10 rank groups with decreasing adjacent gaps
+(group 1–10 gap 10 … group 91–100 gap 1), anchored at #100 = 1
+(#1 = 541). Song period score: sum of daily points. Artist period
+score: every credited artist gets the full daily points (no 1/n).
+See docs/SCORING.md.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import sys
 from collections import defaultdict
@@ -25,10 +27,22 @@ REPORTS_DIR = REPO_ROOT / "data" / "reports"
 from year_end_report import parse_date, song_key  # noqa: E402  (same scripts/ dir on path)
 
 
+def group_step(rank: int) -> int:
+    """Adjacent-gap size for the group containing `rank` (1–100)."""
+    return 11 - math.ceil(rank / 10)
+
+
 def daily_points(rank: int) -> int:
+    """Points for chart rank R: #100 = 1 implies #1 = 541.
+
+    Moving from r to r+1 subtracts step(r+1) = 11 - ceil((r+1)/10).
+    """
     if rank < 1 or rank > 100:
         return 0
-    return 101 - rank
+    total = 1  # anchor #100
+    for k in range(rank + 1, 101):
+        total += group_step(k)
+    return total
 
 
 def artist_names(track: dict[str, Any]) -> list[str]:
@@ -256,7 +270,7 @@ def render_markdown(
         "",
         "## Scoring formula",
         "",
-        "Daily points: `points = 101 - R` for chart rank R (1–100).",
+        "Daily points: 10 rank groups (gaps 10…1), anchor `#100 = 1` → `#1 = 541`.",
         "Song score: sum of daily points over the period.",
         "Artist score: each credited artist receives the full daily points of each track (no 1/n split).",
         "Full documentation: [`docs/SCORING.md`](../../docs/SCORING.md).",
@@ -419,7 +433,18 @@ def main(argv: list[str] | None = None) -> int:
         "snapshot_count": len(snaps),
         "date_range": {"start": date_range[0], "end": date_range[1]},
         "scoring": {
-            "daily_points": "101 - R for rank R in 1..100",
+            "daily_points": (
+                "10 groups of 10 ranks; within-group gap = 11 - group_index; "
+                "points(r)-points(r+1)=step(r+1); #100=1 → #1=541"
+            ),
+            "key_values": {
+                "1": 541,
+                "2": 531,
+                "10": 451,
+                "11": 442,
+                "20": 361,
+                "100": 1,
+            },
             "song_score": "sum of daily points",
             "artist_score": "full daily points to each credited artist (no 1/n)",
             "docs": "docs/SCORING.md",

@@ -46,7 +46,7 @@ APPLE_MUSIC_TOKEN=… python3 scripts/snapshot.py --prefer-api
 
 ## Scoring
 
-Primary numeric popularity uses daily points `101 − R` (rank 1 = 100 … rank 100 = 1), summed over the period for songs; each credited artist gets the full daily points of a track (no 1/n split). Details and examples: [`docs/SCORING.md`](docs/SCORING.md).
+Primary numeric popularity uses **grouped daily points** (10 bands of 10 ranks; adjacent gaps 10…1; `#100 = 1` → `#1 = 541`), summed over the period for songs; each credited artist gets the full daily points of a track (no 1/n split). Details and examples: [`docs/SCORING.md`](docs/SCORING.md).
 
 ```bash
 python3 scripts/score_report.py --month 2026-10
