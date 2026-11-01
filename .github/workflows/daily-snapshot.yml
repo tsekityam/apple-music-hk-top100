@@ -15,7 +15,7 @@ on:
         type: string
         default: ""
       score_year:
-        description: "Generate 10-group score report for calendar year YYYY (empty = auto if snapshot is Dec 31)"
+        description: "Generate ln(101/r) score report for calendar year YYYY (empty = auto if snapshot is Dec 31)"
         type: string
         default: ""
       run_year_end:

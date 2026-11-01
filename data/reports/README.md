@@ -1,6 +1,6 @@
 # Reports
 
-Score reports from `scripts/score_report.py` (10-group daily points; see [`docs/SCORING.md`](../../docs/SCORING.md)):
+Score reports from `scripts/score_report.py` (`p(r) = ln(101 / r)`; see [`docs/SCORING.md`](../../docs/SCORING.md)):
 
 | Pattern | Period |
 | --- | --- |

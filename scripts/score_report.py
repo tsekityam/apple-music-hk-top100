@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Popularity score reports from daily Top 100 HK snapshots.
 
-Daily points use 10 rank groups with decreasing adjacent gaps
-(group 1–10 gap 10 … group 91–100 gap 1), anchored at #100 = 1
-(#1 = 541). Song period score: sum of daily points. Artist period
-score: every credited artist gets the full daily points (no 1/n).
-See docs/SCORING.md.
+Daily points: p(r) = ln(101 / r) for chart rank r in 1..100 (natural log).
+Song period score: sum of daily points on each snapshot day the song appears.
+Artist period score: every credited artist gets the full daily points (no 1/n).
+See docs/SCORING.md. This module is the only scoring implementation; GitHub
+Actions call it and do not reimplement the formula.
 """
 
 from __future__ import annotations
@@ -28,23 +28,46 @@ from year_end_report import parse_date, song_key  # noqa: E402  (same scripts/ d
 
 WEEK_RE = re.compile(r"^(\d{4})-W(\d{2})$", re.IGNORECASE)
 
+# Published period scores are the exact sum, rounded to this many decimals.
+SCORE_DECIMALS = 6
 
-def group_step(rank: int) -> int:
-    """Adjacent-gap size for the group containing `rank` (1–100)."""
-    return 11 - math.ceil(rank / 10)
+FORMULA_MD_LINES = (
+    "Daily points: `p(r) = ln(101 / r)` (natural log; `r` is the daily chart rank, 1–100).",
+    "Song score: sum of daily points over every snapshot day in the period the song appears.",
+    "Artist score: each credited artist receives the full daily points of each track (no 1/n split).",
+    "Full documentation: [`docs/SCORING.md`](../../docs/SCORING.md).",
+)
 
 
-def daily_points(rank: int) -> int:
-    """Points for chart rank R: #100 = 1 implies #1 = 541.
+def daily_points(rank: int) -> float:
+    """Daily points for chart rank r in 1..100: ln(101 / r).
 
-    Moving from r to r+1 subtracts step(r+1) = 11 - ceil((r+1)/10).
+    Natural log. Ranks outside 1..100 award 0.
     """
     if rank < 1 or rank > 100:
-        return 0
-    total = 1  # anchor #100
-    for k in range(rank + 1, 101):
-        total += group_step(k)
-    return total
+        return 0.0
+    return math.log(101 / rank)
+
+
+def round_score(total: float) -> float:
+    """Stable published score (exact sum, rounded)."""
+    return round(total, SCORE_DECIMALS)
+
+
+def format_score(total: float) -> str:
+    return f"{total:.{SCORE_DECIMALS}f}"
+
+
+def scoring_metadata() -> dict[str, Any]:
+    anchors = (1, 2, 10, 11, 20, 100)
+    return {
+        "daily_points": "p(r) = ln(101 / r) for r in 1..100 (natural log); 0 otherwise",
+        "key_values": {str(r): round_score(daily_points(r)) for r in anchors},
+        "song_score": "sum of daily p(r) over snapshot days the song appears",
+        "artist_score": "full daily points to each credited artist (no 1/n)",
+        "score_decimals": SCORE_DECIMALS,
+        "docs": "docs/SCORING.md",
+    }
 
 
 def artist_names(track: dict[str, Any]) -> list[str]:
@@ -142,7 +165,7 @@ def load_snapshots(
 
 def aggregate_songs(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
     meta: dict[str, dict[str, Any]] = {}
-    score: dict[str, int] = defaultdict(int)
+    score: dict[str, float] = defaultdict(float)
     days_at_1: dict[str, int] = defaultdict(int)
     days_top10: dict[str, int] = defaultdict(int)
     days_top100: dict[str, int] = defaultdict(int)
@@ -201,7 +224,7 @@ def aggregate_songs(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
         rows.append(
             {
                 **info,
-                "score": score[key],
+                "score": round_score(score[key]),
                 "days_at_number_1": days_at_1[key],
                 "days_in_top_10": days_top10[key],
                 "days_in_top_100": days,
@@ -214,7 +237,7 @@ def aggregate_songs(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     def sort_key(r: dict[str, Any]) -> tuple:
         return (
-            -int(r["score"]),
+            -float(r["score"]),
             -int(r["days_at_number_1"]),
             -int(r["days_in_top_10"]),
             float(r["average_rank"]),
@@ -229,7 +252,7 @@ def aggregate_songs(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def aggregate_artists(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    score: dict[str, int] = defaultdict(int)
+    score: dict[str, float] = defaultdict(float)
     songs: dict[str, set[str]] = defaultdict(set)
     display: dict[str, str] = {}
     last_seen: dict[str, str] = {}
@@ -258,14 +281,14 @@ def aggregate_artists(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
         rows.append(
             {
                 "name": display.get(key) or key,
-                "score": pts,
+                "score": round_score(pts),
                 "distinct_songs": len(songs[key]),
             }
         )
 
     def sort_key(r: dict[str, Any]) -> tuple:
         return (
-            -int(r["score"]),
+            -float(r["score"]),
             -int(r["distinct_songs"]),
             (r.get("name") or "").casefold(),
         )
@@ -321,10 +344,7 @@ def render_markdown(
         "",
         "## Scoring formula",
         "",
-        "Daily points: 10 rank groups (gaps 10…1), anchor `#100 = 1` → `#1 = 541`.",
-        "Song score: sum of daily points over the period.",
-        "Artist score: each credited artist receives the full daily points of each track (no 1/n split).",
-        "Full documentation: [`docs/SCORING.md`](../../docs/SCORING.md).",
+        *FORMULA_MD_LINES,
         "",
         f"- Snapshots used: **{snapshot_count}**",
         f"- Date range: `{start}` → `{end}`",
@@ -340,7 +360,7 @@ def render_markdown(
         lines.append(
             "| {rank} | {score} | {title} | {artists} | {d1} | {t10} | {dc} | {avg} | {peak} |".format(
                 rank=r["rank"],
-                score=r["score"],
+                score=format_score(r["score"]),
                 title=esc(r.get("title") or ""),
                 artists=esc(r.get("artists_display") or ""),
                 d1=r["days_at_number_1"],
@@ -367,7 +387,7 @@ def render_markdown(
         lines.append(
             "| {rank} | {score} | {name} | {songs} |".format(
                 rank=r["rank"],
-                score=r["score"],
+                score=format_score(r["score"]),
                 name=esc(r.get("name") or ""),
                 songs=r["distinct_songs"],
             )
@@ -522,23 +542,7 @@ def main(argv: list[str] | None = None) -> int:
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "snapshot_count": len(snaps),
         "date_range": {"start": date_range[0], "end": date_range[1]},
-        "scoring": {
-            "daily_points": (
-                "10 groups of 10 ranks; within-group gap = 11 - group_index; "
-                "points(r)-points(r+1)=step(r+1); #100=1 → #1=541"
-            ),
-            "key_values": {
-                "1": 541,
-                "2": 531,
-                "10": 451,
-                "11": 442,
-                "20": 361,
-                "100": 1,
-            },
-            "song_score": "sum of daily points",
-            "artist_score": "full daily points to each credited artist (no 1/n)",
-            "docs": "docs/SCORING.md",
-        },
+        "scoring": scoring_metadata(),
         "song_ranking": [
             "score DESC",
             "days_at_number_1 DESC",
