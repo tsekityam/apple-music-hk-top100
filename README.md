@@ -19,7 +19,7 @@ data/
   history/YYYY-MM-DD.json
   reports/YYYY-Www.scores.md  # weekly score reports (ISO week)
   reports/YYYY-MM.scores.md   # monthly score reports
-  reports/YYYY.scores.md      # yearly score reports (10-group)
+  reports/YYYY.scores.md      # yearly score reports
   reports/YYYY.md             # ordinal year-end (when generated)
 docs/
   SCORING.md
@@ -46,7 +46,7 @@ APPLE_MUSIC_TOKEN=… python3 scripts/snapshot.py --prefer-api
 
 ## Scoring
 
-Primary numeric popularity uses **grouped daily points** (10 bands of 10 ranks; adjacent gaps 10…1; `#100 = 1` → `#1 = 541`), summed over the period for songs; each credited artist gets the full daily points of a track (no 1/n split). Details and examples: [`docs/SCORING.md`](docs/SCORING.md).
+Primary numeric popularity uses daily points **`p(r) = ln(101 / r)`** (natural log; `r` is the daily chart rank, 1–100), summed over every snapshot day in the period for songs. Each credited artist gets the full daily points of a track (no 1/n split). Details and examples: [`docs/SCORING.md`](docs/SCORING.md).
 
 ```bash
 python3 scripts/score_report.py --week 2026-W43
@@ -92,7 +92,7 @@ Workflow: `.github/workflows/daily-snapshot.yml`
 On each run the workflow:
 
 1. Runs `scripts/snapshot.py` (snapshot date **D** in HKT)
-2. **Score reports** (10-group formula) only after that snapshot, when the period end is available:
+2. **Score reports** (`p(r) = ln(101 / r)`, via `scripts/score_report.py`) only after that snapshot, when the period end is available:
    - **D is Sunday** → `--week` for that ISO week (`YYYY-Www.scores.*`)
    - **D is last calendar day of the month** → `--month YYYY-MM`
    - **D is 31 Dec** → `--year YYYY` (`.scores.*`, not the ordinal report)
