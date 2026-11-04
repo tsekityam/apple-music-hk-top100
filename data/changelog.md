@@ -2,6 +2,7 @@
 
 Daily #1 song from Apple Music Top 100: Hong Kong.
 
+- **2026-11-04** — #1: Hong Kong (feat. 王菲季候風) — The Weeknd (100 tracks, source=public_page_scrape)
 - **2026-11-03** — #1: Hong Kong (feat. 王菲季候風) — The Weeknd (100 tracks, source=public_page_scrape)
 - **2026-11-02** — #1: NEON — A2O & A2O LITE (100 tracks, source=public_page_scrape)
 - **2026-11-01** — #1: NEON — A2O & A2O LITE (100 tracks, source=public_page_scrape)
