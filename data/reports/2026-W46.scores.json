@@ -1,0 +1,2686 @@
+{
+  "period": "2026-W46",
+  "generated_at": "2026-11-15T00:26:10+00:00",
+  "snapshot_count": 7,
+  "date_range": {
+    "start": "2026-11-09",
+    "end": "2026-11-15"
+  },
+  "scoring": {
+    "daily_points": "p(r) = ln(101 / r) for r in 1..100 (natural log); 0 otherwise",
+    "key_values": {
+      "1": 4.615121,
+      "2": 3.921973,
+      "10": 2.312535,
+      "11": 2.217225,
+      "20": 1.619388,
+      "100": 0.00995
+    },
+    "song_score": "sum of daily p(r) over snapshot days the song appears",
+    "artist_score": "full daily points to each credited artist (no 1/n)",
+    "score_decimals": 6,
+    "docs": "docs/SCORING.md"
+  },
+  "song_ranking": [
+    "score DESC",
+    "days_at_number_1 DESC",
+    "days_in_top_10 DESC",
+    "average_rank ASC",
+    "best_peak_rank ASC",
+    "title ASC"
+  ],
+  "artist_ranking": [
+    "score DESC",
+    "distinct_songs DESC",
+    "name ASC"
+  ],
+  "songs": [
+    {
+      "apple_music_id": "6829122414",
+      "title": "Hong Kong (feat. 王菲季候風)",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/hong-kong-feat-%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A2%A8/6829122413?i=6829122414",
+      "score": 32.305844,
+      "days_at_number_1": 7,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 1.0,
+      "best_peak_rank": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 1
+    },
+    {
+      "apple_music_id": "6820428730",
+      "title": "NEON",
+      "artists": [
+        "A2O",
+        "A2O LITE"
+      ],
+      "artists_display": "A2O & A2O LITE",
+      "url": "https://music.apple.com/hk/album/neon/6820428726?i=6820428730",
+      "score": 27.453813,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 2.0,
+      "best_peak_rank": 2,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 2
+    },
+    {
+      "apple_music_id": "913803072",
+      "title": "Love Options",
+      "artists": [
+        "BESTie"
+      ],
+      "artists_display": "BESTie",
+      "url": "https://music.apple.com/hk/album/love-options/913802950?i=913803072",
+      "score": 22.601783,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 4.0,
+      "best_peak_rank": 4,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 3
+    },
+    {
+      "apple_music_id": "1444208936",
+      "title": "季候風",
+      "artists": [
+        "王靖雯"
+      ],
+      "artists_display": "王靖雯",
+      "url": "https://music.apple.com/hk/album/%E5%AD%A3%E5%80%99%E9%A2%A8/1444208582?i=1444208936",
+      "score": 21.099049,
+      "days_at_number_1": 0,
+      "days_in_top_10": 6,
+      "days_in_top_100": 6,
+      "average_rank": 3.0,
+      "best_peak_rank": 3,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 4
+    },
+    {
+      "apple_music_id": "1816674595",
+      "title": "用背脊唱情歌",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E7%94%A8%E8%83%8C%E8%84%8A%E5%94%B1%E6%83%85%E6%AD%8C/1816674588?i=1816674595",
+      "score": 21.039778,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 5.0,
+      "best_peak_rank": 5,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 5
+    },
+    {
+      "apple_music_id": "1784959357",
+      "title": "說謊者",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E8%AA%AA%E8%AC%8A%E8%80%85/1784959356?i=1784959357",
+      "score": 19.301075,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 6.4286,
+      "best_peak_rank": 6,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 6
+    },
+    {
+      "apple_music_id": "567996557",
+      "title": "一場誤會",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E5%A0%B4%E8%AA%A4%E6%9C%83/567996308?i=567996557",
+      "score": 19.146925,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 6.5714,
+      "best_peak_rank": 6,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 7
+    },
+    {
+      "apple_music_id": "6814412779",
+      "title": "淺粉紅 pale pink",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E6%B7%BA%E7%B2%89%E7%B4%85-pale-pink/6814412776?i=6814412779",
+      "score": 17.749753,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 8.0,
+      "best_peak_rank": 8,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 8
+    },
+    {
+      "apple_music_id": "6772915785",
+      "title": "男人怎可以",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E7%94%B7%E4%BA%BA%E6%80%8E%E5%8F%AF%E4%BB%A5/6772915783?i=6772915785",
+      "score": 16.925272,
+      "days_at_number_1": 0,
+      "days_in_top_10": 7,
+      "days_in_top_100": 7,
+      "average_rank": 9.0,
+      "best_peak_rank": 9,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 9
+    },
+    {
+      "apple_music_id": "1443717750",
+      "title": "陀飛輪",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E9%99%80%E9%A3%9B%E8%BC%AA/1443717418?i=1443717750",
+      "score": 16.092438,
+      "days_at_number_1": 0,
+      "days_in_top_10": 6,
+      "days_in_top_100": 7,
+      "average_rank": 10.1429,
+      "best_peak_rank": 10,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 10
+    },
+    {
+      "apple_music_id": "1718045819",
+      "title": "緊急聯絡人",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E7%B7%8A%E6%80%A5%E8%81%AF%E7%B5%A1%E4%BA%BA/1718045810?i=1718045819",
+      "score": 15.259543,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 11.4286,
+      "best_peak_rank": 11,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 11
+    },
+    {
+      "apple_music_id": "542677437",
+      "title": "歲月如歌",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C/542676848?i=542677437",
+      "score": 15.107756,
+      "days_at_number_1": 0,
+      "days_in_top_10": 1,
+      "days_in_top_100": 7,
+      "average_rank": 11.7143,
+      "best_peak_rank": 10,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 12
+    },
+    {
+      "apple_music_id": "1887819000",
+      "title": "我看見今晚的月色很美,你呢?",
+      "artists": [
+        "晚安莉莉"
+      ],
+      "artists_display": "晚安莉莉",
+      "url": "https://music.apple.com/hk/album/%E6%88%91%E7%9C%8B%E8%A6%8B%E4%BB%8A%E6%99%9A%E7%9A%84%E6%9C%88%E8%89%B2%E5%BE%88%E7%BE%8E-%E4%BD%A0%E5%91%A2/1887818994?i=1887819000",
+      "score": 13.809803,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 14.1429,
+      "best_peak_rank": 12,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 13
+    },
+    {
+      "apple_music_id": "1804348174",
+      "title": "懷疑人生",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E6%87%B7%E7%96%91%E4%BA%BA%E7%94%9F/1804347852?i=1804348174",
+      "score": 13.578863,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 14.5714,
+      "best_peak_rank": 13,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 14
+    },
+    {
+      "apple_music_id": "1590828011",
+      "title": "記憶棉",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E8%A8%98%E6%86%B6%E6%A3%89/1590828009?i=1590828011",
+      "score": 12.704713,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 16.5714,
+      "best_peak_rank": 14,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 15
+    },
+    {
+      "apple_music_id": "905169205",
+      "title": "命硬",
+      "artists": [
+        "側田"
+      ],
+      "artists_display": "側田",
+      "url": "https://music.apple.com/hk/album/%E5%91%BD%E7%A1%AC/905169192?i=905169205",
+      "score": 12.34188,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 17.4286,
+      "best_peak_rank": 14,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 16
+    },
+    {
+      "apple_music_id": "6828335406",
+      "title": "With",
+      "artists": [
+        "RESCENE"
+      ],
+      "artists_display": "RESCENE",
+      "url": "https://music.apple.com/hk/album/with/6828335122?i=6828335406",
+      "score": 12.262222,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 18.5714,
+      "best_peak_rank": 13,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 17
+    },
+    {
+      "apple_music_id": "1443375474",
+      "title": "葡萄成熟時",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E8%91%A1%E8%90%84%E6%88%90%E7%86%9F%E6%99%82/1443374875?i=1443375474",
+      "score": 11.450858,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 19.7143,
+      "best_peak_rank": 18,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 18
+    },
+    {
+      "apple_music_id": "1488408568",
+      "title": "Blinding Lights",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/blinding-lights/1488408555?i=1488408568",
+      "score": 11.021621,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 22.0,
+      "best_peak_rank": 13,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 19
+    },
+    {
+      "apple_music_id": "667921834",
+      "title": "十面埋伏",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F/667921627?i=667921834",
+      "score": 10.729772,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 21.8571,
+      "best_peak_rank": 20,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 20
+    },
+    {
+      "apple_music_id": "6823551299",
+      "title": "現實太少偶像劇",
+      "artists": [
+        "Dear Jane"
+      ],
+      "artists_display": "Dear Jane",
+      "url": "https://music.apple.com/hk/album/%E7%8F%BE%E5%AF%A6%E5%A4%AA%E5%B0%91%E5%81%B6%E5%83%8F%E5%8A%87/6823551278?i=6823551299",
+      "score": 10.679665,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 22.8571,
+      "best_peak_rank": 16,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 21
+    },
+    {
+      "apple_music_id": "6800595231",
+      "title": "至少相擁沒錯",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E8%87%B3%E5%B0%91%E7%9B%B8%E6%93%81%E6%B2%92%E9%8C%AF/6800595230?i=6800595231",
+      "score": 10.151346,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 23.8571,
+      "best_peak_rank": 20,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 22
+    },
+    {
+      "apple_music_id": "1722428083",
+      "title": "黑玻璃",
+      "artists": [
+        "洪嘉豪"
+      ],
+      "artists_display": "洪嘉豪",
+      "url": "https://music.apple.com/hk/album/%E9%BB%91%E7%8E%BB%E7%92%83/1722428072?i=1722428083",
+      "score": 9.987921,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 24.5714,
+      "best_peak_rank": 18,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 23
+    },
+    {
+      "apple_music_id": "964147684",
+      "title": "美麗之最",
+      "artists": [
+        "側田"
+      ],
+      "artists_display": "側田",
+      "url": "https://music.apple.com/hk/album/%E7%BE%8E%E9%BA%97%E4%B9%8B%E6%9C%80/964147672?i=964147684",
+      "score": 9.821277,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 25.0,
+      "best_peak_rank": 21,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 24
+    },
+    {
+      "apple_music_id": "651449679",
+      "title": "K歌之王",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/k%E6%AD%8C%E4%B9%8B%E7%8E%8B/651449675?i=651449679",
+      "score": 9.63364,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 25.5714,
+      "best_peak_rank": 23,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 25
+    },
+    {
+      "apple_music_id": "1386714597",
+      "title": "任我行",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E4%BB%BB%E6%88%91%E8%A1%8C/1386714588?i=1386714597",
+      "score": 9.621392,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 25.5714,
+      "best_peak_rank": 24,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 26
+    },
+    {
+      "apple_music_id": "6822369089",
+      "title": "Looks Can Kill",
+      "artists": [
+        "IVE"
+      ],
+      "artists_display": "IVE",
+      "url": "https://music.apple.com/hk/album/looks-can-kill/6822369065?i=6822369089",
+      "score": 8.884978,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 29.4286,
+      "best_peak_rank": 22,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 27
+    },
+    {
+      "apple_music_id": "1635915583",
+      "title": "老派約會之必要",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E8%80%81%E6%B4%BE%E7%B4%84%E6%9C%83%E4%B9%8B%E5%BF%85%E8%A6%81/1635915573?i=1635915583",
+      "score": 8.341386,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 31.1429,
+      "best_peak_rank": 24,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 28
+    },
+    {
+      "apple_music_id": "667921833",
+      "title": "明年今日",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5/667921627?i=667921833",
+      "score": 8.110262,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 31.8571,
+      "best_peak_rank": 29,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 29
+    },
+    {
+      "apple_music_id": "1490822213",
+      "title": "沙龍",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E6%B2%99%E9%BE%8D/1490822198?i=1490822213",
+      "score": 8.013007,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 32.2857,
+      "best_peak_rank": 28,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 30
+    },
+    {
+      "apple_music_id": "557096400",
+      "title": "離家出走",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "url": "https://music.apple.com/hk/album/%E9%9B%A2%E5%AE%B6%E5%87%BA%E8%B5%B0/557096396?i=557096400",
+      "score": 8.001141,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 32.2857,
+      "best_peak_rank": 30,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 31
+    },
+    {
+      "apple_music_id": "1868628419",
+      "title": "無名氏",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E7%84%A1%E5%90%8D%E6%B0%8F/1868628417?i=1868628419",
+      "score": 7.358506,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 36.5714,
+      "best_peak_rank": 26,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 32
+    },
+    {
+      "apple_music_id": "6792884088",
+      "title": "Nicole Kidman",
+      "artists": [
+        "ADÉLA"
+      ],
+      "artists_display": "ADÉLA",
+      "url": "https://music.apple.com/hk/album/nicole-kidman/6792883860?i=6792884088",
+      "score": 7.353797,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 35.7143,
+      "best_peak_rank": 31,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 33
+    },
+    {
+      "apple_music_id": "1440872304",
+      "title": "Die For You",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/die-for-you/1440871397?i=1440872304",
+      "score": 7.333729,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 37.7143,
+      "best_peak_rank": 19,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 34
+    },
+    {
+      "apple_music_id": "6818511627",
+      "title": "You’re Under Arrest",
+      "artists": [
+        "ILLIT"
+      ],
+      "artists_display": "ILLIT",
+      "url": "https://music.apple.com/hk/album/youre-under-arrest/6818511623?i=6818511627",
+      "score": 7.319823,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 40.1429,
+      "best_peak_rank": 18,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 35
+    },
+    {
+      "apple_music_id": "6813529292",
+      "title": "陽光普照",
+      "artists": [
+        "容祖兒"
+      ],
+      "artists_display": "容祖兒",
+      "url": "https://music.apple.com/hk/album/%E9%99%BD%E5%85%89%E6%99%AE%E7%85%A7/6813529287?i=6813529292",
+      "score": 6.558081,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 40.0,
+      "best_peak_rank": 34,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 36
+    },
+    {
+      "apple_music_id": "1721450047",
+      "title": "擱淺",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E6%93%B1%E6%B7%BA/1721450027?i=1721450047",
+      "score": 6.488812,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 40.1429,
+      "best_peak_rank": 35,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 37
+    },
+    {
+      "apple_music_id": "1397759819",
+      "title": "心之科學",
+      "artists": [
+        "容祖兒"
+      ],
+      "artists_display": "容祖兒",
+      "url": "https://music.apple.com/hk/album/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8/1397759810?i=1397759819",
+      "score": 6.422475,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 40.7143,
+      "best_peak_rank": 35,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 38
+    },
+    {
+      "apple_music_id": "6769327013",
+      "title": "玻璃",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E7%8E%BB%E7%92%83/6769327003?i=6769327013",
+      "score": 6.21333,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 42.0,
+      "best_peak_rank": 35,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 39
+    },
+    {
+      "apple_music_id": "1720142741",
+      "title": "永久損毀",
+      "artists": [
+        "MC 張天賦",
+        "陳蕾"
+      ],
+      "artists_display": "MC 張天賦 & 陳蕾",
+      "url": "https://music.apple.com/hk/album/%E6%B0%B8%E4%B9%85%E6%90%8D%E6%AF%80/1720142738?i=1720142741",
+      "score": 6.189556,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 42.0,
+      "best_peak_rank": 33,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 40
+    },
+    {
+      "apple_music_id": "1762544235",
+      "title": "小心碰頭",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E5%B0%8F%E5%BF%83%E7%A2%B0%E9%A0%AD/1762544234?i=1762544235",
+      "score": 6.004898,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 43.0,
+      "best_peak_rank": 38,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 41
+    },
+    {
+      "apple_music_id": "6789835836",
+      "title": "旋轉木馬",
+      "artists": [
+        "米爺",
+        "黃淑蔓"
+      ],
+      "artists_display": "米爺 & 黃淑蔓",
+      "url": "https://music.apple.com/hk/album/%E6%97%8B%E8%BD%89%E6%9C%A8%E9%A6%AC/6789835835?i=6789835836",
+      "score": 5.997351,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 43.2857,
+      "best_peak_rank": 38,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 42
+    },
+    {
+      "apple_music_id": "542593703",
+      "title": "Shall We Talk",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/shall-we-talk/542593700?i=542593703",
+      "score": 5.879084,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 43.7143,
+      "best_peak_rank": 41,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 43
+    },
+    {
+      "apple_music_id": "555235878",
+      "title": "心亂如麻",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "url": "https://music.apple.com/hk/album/%E5%BF%83%E4%BA%82%E5%A6%82%E9%BA%BB/555235820?i=555235878",
+      "score": 5.491402,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 46.2857,
+      "best_peak_rank": 39,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 44
+    },
+    {
+      "apple_music_id": "1443352514",
+      "title": "曖昧",
+      "artists": [
+        "王菲"
+      ],
+      "artists_display": "王菲",
+      "url": "https://music.apple.com/hk/album/%E6%9B%96%E6%98%A7/1443352171?i=1443352514",
+      "score": 4.989773,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 50.0,
+      "best_peak_rank": 42,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 45
+    },
+    {
+      "apple_music_id": "1820726257",
+      "title": "到此為止",
+      "artists": [
+        "連詩雅"
+      ],
+      "artists_display": "連詩雅",
+      "url": "https://music.apple.com/hk/album/%E5%88%B0%E6%AD%A4%E7%82%BA%E6%AD%A2/1820726103?i=1820726257",
+      "score": 4.908598,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 50.1429,
+      "best_peak_rank": 47,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 46
+    },
+    {
+      "apple_music_id": "6827491079",
+      "title": "記得不記得",
+      "artists": [
+        "Zpecial"
+      ],
+      "artists_display": "Zpecial",
+      "url": "https://music.apple.com/hk/album/%E8%A8%98%E5%BE%97%E4%B8%8D%E8%A8%98%E5%BE%97/6827491071?i=6827491079",
+      "score": 4.375543,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 58.1429,
+      "best_peak_rank": 37,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 47
+    },
+    {
+      "apple_music_id": "1346470976",
+      "title": "Haru Haru",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/haru-haru/1346470974?i=1346470976",
+      "score": 4.352509,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 58.8333,
+      "best_peak_rank": 15,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-15",
+      "rank": 48
+    },
+    {
+      "apple_music_id": "1440871420",
+      "title": "Starboy (feat. Daft Punk)",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/starboy-feat-daft-punk/1440871397?i=1440871420",
+      "score": 4.267046,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 51.3333,
+      "best_peak_rank": 36,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-15",
+      "rank": 49
+    },
+    {
+      "apple_music_id": "1422674971",
+      "title": "無條件",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E7%84%A1%E6%A2%9D%E4%BB%B6/1422674966?i=1422674971",
+      "score": 4.221871,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 55.7143,
+      "best_peak_rank": 46,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 50
+    },
+    {
+      "apple_music_id": "1683279954",
+      "title": "隱形遊樂場",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "url": "https://music.apple.com/hk/album/%E9%9A%B1%E5%BD%A2%E9%81%8A%E6%A8%82%E5%A0%B4/1683279953?i=1683279954",
+      "score": 4.03579,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 57.0,
+      "best_peak_rank": 49,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 51
+    },
+    {
+      "apple_music_id": "6824842579",
+      "title": "隨處惹塵埃",
+      "artists": [
+        "Serrini"
+      ],
+      "artists_display": "Serrini",
+      "url": "https://music.apple.com/hk/album/%E9%9A%A8%E8%99%95%E6%83%B9%E5%A1%B5%E5%9F%83/6824842558?i=6824842579",
+      "score": 4.023526,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 52.1667,
+      "best_peak_rank": 46,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 52
+    },
+    {
+      "apple_music_id": "1722741558",
+      "title": "青春告別式",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "url": "https://music.apple.com/hk/album/%E9%9D%92%E6%98%A5%E5%91%8A%E5%88%A5%E5%BC%8F/1722741557?i=1722741558",
+      "score": 4.017092,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 57.1429,
+      "best_peak_rank": 50,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 53
+    },
+    {
+      "apple_music_id": "1721464906",
+      "title": "晴天",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E6%99%B4%E5%A4%A9/1721464893?i=1721464906",
+      "score": 3.843388,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 58.4286,
+      "best_peak_rank": 52,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 54
+    },
+    {
+      "apple_music_id": "6831062160",
+      "title": "你好就夠",
+      "artists": [
+        "歸綽嶢",
+        "魏浚笙"
+      ],
+      "artists_display": "歸綽嶢 & 魏浚笙",
+      "url": "https://music.apple.com/hk/album/%E4%BD%A0%E5%A5%BD%E5%B0%B1%E5%A4%A0/6831062159?i=6831062160",
+      "score": 3.828545,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 3,
+      "average_rank": 38.0,
+      "best_peak_rank": 14,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
+      "rank": 55
+    },
+    {
+      "apple_music_id": "1720091395",
+      "title": "富士山下 (Eason音樂互動Free Party)",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B-eason%E9%9F%B3%E6%A8%82%E4%BA%92%E5%8B%95free-party/1720091272?i=1720091395",
+      "score": 3.748701,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 4,
+      "average_rank": 39.75,
+      "best_peak_rank": 34,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-12",
+      "rank": 56
+    },
+    {
+      "apple_music_id": "6801365250",
+      "title": "BiiiG",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/biiig/6801365249?i=6801365250",
+      "score": 3.722688,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 63.1667,
+      "best_peak_rank": 19,
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-15",
+      "rank": 57
+    },
+    {
+      "apple_music_id": "756564663",
+      "title": "習慣失戀",
+      "artists": [
+        "容祖兒"
+      ],
+      "artists_display": "容祖兒",
+      "url": "https://music.apple.com/hk/album/%E7%BF%92%E6%85%A3%E5%A4%B1%E6%88%80/756564625?i=756564663",
+      "score": 3.618144,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 60.7143,
+      "best_peak_rank": 51,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 58
+    },
+    {
+      "apple_music_id": "1883630672",
+      "title": "⁠我很小朋友",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E6%88%91%E5%BE%88%E5%B0%8F%E6%9C%8B%E5%8F%8B/1883630666?i=1883630672",
+      "score": 3.603745,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 62.4286,
+      "best_peak_rank": 42,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 59
+    },
+    {
+      "apple_music_id": "1463501764",
+      "title": "季候風",
+      "artists": [
+        "王菲"
+      ],
+      "artists_display": "王菲",
+      "url": "https://music.apple.com/hk/album/%E5%AD%A3%E5%80%99%E9%A2%A8/1463501453?i=1463501764",
+      "score": 3.516508,
+      "days_at_number_1": 0,
+      "days_in_top_10": 1,
+      "days_in_top_100": 1,
+      "average_rank": 3.0,
+      "best_peak_rank": 3,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 60
+    },
+    {
+      "apple_music_id": "1698293749",
+      "title": "抽",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E6%8A%BD/1698293748?i=1698293749",
+      "score": 3.507688,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 61.7143,
+      "best_peak_rank": 50,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 61
+    },
+    {
+      "apple_music_id": "1693891139",
+      "title": "One Of The Girls",
+      "artists": [
+        "The Weeknd",
+        "JENNIE",
+        "莉莉露絲·特普"
+      ],
+      "artists_display": "The Weeknd, JENNIE & 莉莉露絲·特普",
+      "url": "https://music.apple.com/hk/album/one-of-the-girls/1693891133?i=1693891139",
+      "score": 3.41542,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 63.1429,
+      "best_peak_rank": 48,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 62
+    },
+    {
+      "apple_music_id": "6820859973",
+      "title": "就算我錯漏百出",
+      "artists": [
+        "Kiri T"
+      ],
+      "artists_display": "Kiri T",
+      "url": "https://music.apple.com/hk/album/%E5%B0%B1%E7%AE%97%E6%88%91%E9%8C%AF%E6%BC%8F%E7%99%BE%E5%87%BA/6820859972?i=6820859973",
+      "score": 3.369286,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 66.4286,
+      "best_peak_rank": 38,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 63
+    },
+    {
+      "apple_music_id": "1313176083",
+      "title": "BANG BANG BANG",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/bang-bang-bang/1313175579?i=1313176083",
+      "score": 3.247179,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 5,
+      "average_rank": 62.0,
+      "best_peak_rank": 18,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-15",
+      "rank": 64
+    },
+    {
+      "apple_music_id": "6795577083",
+      "title": "放棄的界限",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "url": "https://music.apple.com/hk/album/%E6%94%BE%E6%A3%84%E7%9A%84%E7%95%8C%E9%99%90/6795577081?i=6795577083",
+      "score": 3.240222,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 64.8571,
+      "best_peak_rank": 52,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 65
+    },
+    {
+      "apple_music_id": "1781053262",
+      "title": "一百個未老先衰的方法",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E7%99%BE%E5%80%8B%E6%9C%AA%E8%80%81%E5%85%88%E8%A1%B0%E7%9A%84%E6%96%B9%E6%B3%95/1781053261?i=1781053262",
+      "score": 3.194046,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 64.1429,
+      "best_peak_rank": 60,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 66
+    },
+    {
+      "apple_music_id": "6822497774",
+      "title": "Housewife",
+      "artists": [
+        "Tate McRae"
+      ],
+      "artists_display": "Tate McRae",
+      "url": "https://music.apple.com/hk/album/housewife/6822497770?i=6822497774",
+      "score": 3.182843,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 64.8571,
+      "best_peak_rank": 55,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 67
+    },
+    {
+      "apple_music_id": "1733704049",
+      "title": "隔牆有耳",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E9%9A%94%E7%89%86%E6%9C%89%E8%80%B3/1733703884?i=1733704049",
+      "score": 3.058273,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 65.4286,
+      "best_peak_rank": 58,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 68
+    },
+    {
+      "apple_music_id": "1313176085",
+      "title": "IF YOU",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/if-you/1313175579?i=1313176085",
+      "score": 3.036267,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 5,
+      "average_rank": 63.2,
+      "best_peak_rank": 20,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-15",
+      "rank": 69
+    },
+    {
+      "apple_music_id": "586852129",
+      "title": "街燈晚餐",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "url": "https://music.apple.com/hk/album/%E8%A1%97%E7%87%88%E6%99%9A%E9%A4%90/586852114?i=586852129",
+      "score": 2.865346,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 67.2857,
+      "best_peak_rank": 56,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 70
+    },
+    {
+      "apple_music_id": "1442377715",
+      "title": "約定",
+      "artists": [
+        "王菲"
+      ],
+      "artists_display": "王菲",
+      "url": "https://music.apple.com/hk/album/%E7%B4%84%E5%AE%9A/1442377710?i=1442377715",
+      "score": 2.794958,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 68.5714,
+      "best_peak_rank": 58,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 71
+    },
+    {
+      "apple_music_id": "6763656876",
+      "title": "hate that i made you love me",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "artists_display": "Ariana Grande",
+      "url": "https://music.apple.com/hk/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "score": 2.69885,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 70.0,
+      "best_peak_rank": 58,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 72
+    },
+    {
+      "apple_music_id": "1735659500",
+      "title": "至少做一件離譜的事",
+      "artists": [
+        "Kiri T"
+      ],
+      "artists_display": "Kiri T",
+      "url": "https://music.apple.com/hk/album/%E8%87%B3%E5%B0%91%E5%81%9A%E4%B8%80%E4%BB%B6%E9%9B%A2%E8%AD%9C%E7%9A%84%E4%BA%8B/1735659498?i=1735659500",
+      "score": 2.66095,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 70.5714,
+      "best_peak_rank": 53,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 73
+    },
+    {
+      "apple_music_id": "6795983962",
+      "title": "靈魂相願",
+      "artists": [
+        "張敬軒"
+      ],
+      "artists_display": "張敬軒",
+      "url": "https://music.apple.com/hk/album/%E9%9D%88%E9%AD%82%E7%9B%B8%E9%A1%98/6795983960?i=6795983962",
+      "score": 2.65766,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 70.0,
+      "best_peak_rank": 57,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 74
+    },
+    {
+      "apple_music_id": "1650415605",
+      "title": "到底發生過什麼事",
+      "artists": [
+        "Dear Jane"
+      ],
+      "artists_display": "Dear Jane",
+      "url": "https://music.apple.com/hk/album/%E5%88%B0%E5%BA%95%E7%99%BC%E7%94%9F%E9%81%8E%E4%BB%80%E9%BA%BC%E4%BA%8B/1650415601?i=1650415605",
+      "score": 2.523677,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 70.5714,
+      "best_peak_rank": 65,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 75
+    },
+    {
+      "apple_music_id": "6823611520",
+      "title": "DESERVE",
+      "artists": [
+        "BABYMONSTER"
+      ],
+      "artists_display": "BABYMONSTER",
+      "url": "https://music.apple.com/hk/album/deserve/6823611519?i=6823611520",
+      "score": 2.425067,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 73.7143,
+      "best_peak_rank": 49,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 76
+    },
+    {
+      "apple_music_id": "6784832005",
+      "title": "⼤數據以為我還愛你",
+      "artists": [
+        "Zpecial"
+      ],
+      "artists_display": "Zpecial",
+      "url": "https://music.apple.com/hk/album/%E6%95%B8%E6%93%9A%E4%BB%A5%E7%82%BA%E6%88%91%E9%82%84%E6%84%9B%E4%BD%A0/6784832004?i=6784832005",
+      "score": 2.270289,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 5,
+      "average_rank": 67.0,
+      "best_peak_rank": 45,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-15",
+      "rank": 77
+    },
+    {
+      "apple_music_id": "1721454134",
+      "title": "一路向北",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E8%B7%AF%E5%90%91%E5%8C%97/1721453716?i=1721454134",
+      "score": 2.250696,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 73.2857,
+      "best_peak_rank": 70,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 78
+    },
+    {
+      "apple_music_id": "1721450037",
+      "title": "七里香",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E4%B8%83%E9%87%8C%E9%A6%99/1721450027?i=1721450037",
+      "score": 2.197112,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 73.8571,
+      "best_peak_rank": 70,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 79
+    },
+    {
+      "apple_music_id": "1664796698",
+      "title": "世一",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E4%B8%96%E4%B8%80/1664796684?i=1664796698",
+      "score": 2.046824,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 75.7143,
+      "best_peak_rank": 69,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 80
+    },
+    {
+      "apple_music_id": "667921841",
+      "title": "單車",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E5%96%AE%E8%BB%8A/667921627?i=667921841",
+      "score": 1.99392,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 76.4286,
+      "best_peak_rank": 61,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 81
+    },
+    {
+      "apple_music_id": "1569850022",
+      "title": "反對無效",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E5%8F%8D%E5%B0%8D%E7%84%A1%E6%95%88/1569850021?i=1569850022",
+      "score": 1.936549,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 76.7143,
+      "best_peak_rank": 71,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 82
+    },
+    {
+      "apple_music_id": "1313176081",
+      "title": "LOSER",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/loser/1313175579?i=1313176081",
+      "score": 1.785992,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 43.5,
+      "best_peak_rank": 30,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 83
+    },
+    {
+      "apple_music_id": "1721456390",
+      "title": "不該 (feat. 張惠妹)",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E4%B8%8D%E8%A9%B2-feat-%E5%BC%B5%E6%83%A0%E5%A6%B9/1721456244?i=1721456390",
+      "score": 1.779288,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 78.4286,
+      "best_peak_rank": 75,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 84
+    },
+    {
+      "apple_music_id": "6785801848",
+      "title": "甲乙丙丁Strangers",
+      "artists": [
+        "李佳薇"
+      ],
+      "artists_display": "李佳薇",
+      "url": "https://music.apple.com/hk/album/%E7%94%B2%E4%B9%99%E4%B8%99%E4%B8%81strangers/6785801843?i=6785801848",
+      "score": 1.755359,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 75.8333,
+      "best_peak_rank": 65,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 85
+    },
+    {
+      "apple_music_id": "667921842",
+      "title": "人來人往",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80/667921627?i=667921842",
+      "score": 1.692642,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 79.8571,
+      "best_peak_rank": 66,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 86
+    },
+    {
+      "apple_music_id": "1499378615",
+      "title": "After Hours",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/after-hours/1499378108?i=1499378615",
+      "score": 1.467229,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 5,
+      "average_rank": 77.2,
+      "best_peak_rank": 53,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
+      "rank": 87
+    },
+    {
+      "apple_music_id": "1337456885",
+      "title": "Fantastic Baby",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/fantastic-baby/1337456879?i=1337456885",
+      "score": 1.457067,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 52.5,
+      "best_peak_rank": 33,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 88
+    },
+    {
+      "apple_music_id": "555235877",
+      "title": "大哥",
+      "artists": [
+        "衛蘭"
+      ],
+      "artists_display": "衛蘭",
+      "url": "https://music.apple.com/hk/album/%E5%A4%A7%E5%93%A5/555235820?i=555235877",
+      "score": 1.451759,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 82.1429,
+      "best_peak_rank": 77,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 89
+    },
+    {
+      "apple_music_id": "1443346107",
+      "title": "富士山下",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B/1443345687?i=1443346107",
+      "score": 1.310885,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 52.5,
+      "best_peak_rank": 50,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 90
+    },
+    {
+      "apple_music_id": "6819159640",
+      "title": "未深入但了解",
+      "artists": [
+        "MC 張天賦"
+      ],
+      "artists_display": "MC 張天賦",
+      "url": "https://music.apple.com/hk/album/%E6%9C%AA%E6%B7%B1%E5%85%A5%E4%BD%86%E4%BA%86%E8%A7%A3/6819159639?i=6819159640",
+      "score": 1.24912,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 82.5,
+      "best_peak_rank": 70,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 91
+    },
+    {
+      "apple_music_id": "1330947216",
+      "title": "Lies",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/lies/1330947214?i=1330947216",
+      "score": 1.188506,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 58.0,
+      "best_peak_rank": 42,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 92
+    },
+    {
+      "apple_music_id": "1550878097",
+      "title": "Starboy (feat. Daft Punk)",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/starboy-feat-daft-punk/1550877895?i=1550878097",
+      "score": 1.118613,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 33.0,
+      "best_peak_rank": 33,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "rank": 93
+    },
+    {
+      "apple_music_id": "1721460917",
+      "title": "說好的幸福呢",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E8%AA%AA%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2/1721460694?i=1721460917",
+      "score": 1.024091,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 87.2857,
+      "best_peak_rank": 85,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 94
+    },
+    {
+      "apple_music_id": "1721454553",
+      "title": "安靜",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E5%AE%89%E9%9D%9C/1721454234?i=1721454553",
+      "score": 0.959983,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 88.1429,
+      "best_peak_rank": 81,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 95
+    },
+    {
+      "apple_music_id": "1711239225",
+      "title": "滴滴金",
+      "artists": [
+        "CY陳宗澤"
+      ],
+      "artists_display": "CY陳宗澤",
+      "url": "https://music.apple.com/hk/album/%E6%BB%B4%E6%BB%B4%E9%87%91/1711239224?i=1711239225",
+      "score": 0.959672,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 86.1667,
+      "best_peak_rank": 78,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 96
+    },
+    {
+      "apple_music_id": "6770401926",
+      "title": "BAD",
+      "artists": [
+        "ATEEZ"
+      ],
+      "artists_display": "ATEEZ",
+      "url": "https://music.apple.com/hk/album/bad/6770401924?i=6770401926",
+      "score": 0.915561,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 86.8333,
+      "best_peak_rank": 82,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 97
+    },
+    {
+      "apple_music_id": "964147681",
+      "title": "Kong",
+      "artists": [
+        "側田"
+      ],
+      "artists_display": "側田",
+      "url": "https://music.apple.com/hk/album/kong/964147672?i=964147681",
+      "score": 0.866199,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 65.5,
+      "best_peak_rank": 65,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "rank": 98
+    },
+    {
+      "apple_music_id": "1503647214",
+      "title": "富士山下",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B/1503646450?i=1503647214",
+      "score": 0.808458,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 45.0,
+      "best_peak_rank": 45,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "rank": 99
+    },
+    {
+      "apple_music_id": "1780635199",
+      "title": "HOME SWEET HOME (feat. TAEYANG & DAESUNG)",
+      "artists": [
+        "G-DRAGON"
+      ],
+      "artists_display": "G-DRAGON",
+      "url": "https://music.apple.com/hk/album/home-sweet-home-feat-taeyang-daesung/1780634924?i=1780635199",
+      "score": 0.799143,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 4,
+      "average_rank": 83.5,
+      "best_peak_rank": 69,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-15",
+      "rank": 100
+    },
+    {
+      "apple_music_id": "1639839943",
+      "title": "昨遲人",
+      "artists": [
+        "許志安"
+      ],
+      "artists_display": "許志安",
+      "url": "https://music.apple.com/hk/album/%E6%98%A8%E9%81%B2%E4%BA%BA/1639839666?i=1639839943",
+      "score": 0.730664,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 5,
+      "average_rank": 87.4,
+      "best_peak_rank": 80,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
+      "rank": 101
+    },
+    {
+      "apple_music_id": "917107990",
+      "title": "Kong",
+      "artists": [
+        "側田"
+      ],
+      "artists_display": "側田",
+      "url": "https://music.apple.com/hk/album/kong/917103870?i=917107990",
+      "score": 0.65276,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 3,
+      "average_rank": 81.3333,
+      "best_peak_rank": 77,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-13",
+      "rank": 102
+    },
+    {
+      "apple_music_id": "924531379",
+      "title": "閉目入神",
+      "artists": [
+        "鄭中基"
+      ],
+      "artists_display": "鄭中基",
+      "url": "https://music.apple.com/hk/album/%E9%96%89%E7%9B%AE%E5%85%A5%E7%A5%9E/924531373?i=924531379",
+      "score": 0.61651,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 6,
+      "average_rank": 91.3333,
+      "best_peak_rank": 81,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-14",
+      "rank": 103
+    },
+    {
+      "apple_music_id": "1339055181",
+      "title": "Tonight",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/tonight/1339055171?i=1339055181",
+      "score": 0.576072,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 77.5,
+      "best_peak_rank": 61,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 104
+    },
+    {
+      "apple_music_id": "6768584843",
+      "title": "月亮代表我",
+      "artists": [
+        "moon tang"
+      ],
+      "artists_display": "moon tang",
+      "url": "https://music.apple.com/hk/album/%E6%9C%88%E4%BA%AE%E4%BB%A3%E8%A1%A8%E6%88%91/6768584830?i=6768584843",
+      "score": 0.560842,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 76.5,
+      "best_peak_rank": 71,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "rank": 105
+    },
+    {
+      "apple_music_id": "6832408758",
+      "title": "天下無敵",
+      "artists": [
+        "陳健安"
+      ],
+      "artists_display": "陳健安",
+      "url": "https://music.apple.com/hk/album/%E5%A4%A9%E4%B8%8B%E7%84%A1%E6%95%B5/6832408757?i=6832408758",
+      "score": 0.554678,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 58.0,
+      "best_peak_rank": 58,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 106
+    },
+    {
+      "apple_music_id": "1337456890",
+      "title": "Blue",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/blue/1337456879?i=1337456890",
+      "score": 0.554507,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 78.0,
+      "best_peak_rank": 63,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
+      "rank": 107
+    },
+    {
+      "apple_music_id": "1443648192",
+      "title": "我本人",
+      "artists": [
+        "吳雨霏"
+      ],
+      "artists_display": "吳雨霏",
+      "url": "https://music.apple.com/hk/album/%E6%88%91%E6%9C%AC%E4%BA%BA/1443647780?i=1443648192",
+      "score": 0.452614,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 94.7143,
+      "best_peak_rank": 92,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 108
+    },
+    {
+      "apple_music_id": "320144969",
+      "title": "無人駕駛",
+      "artists": [
+        "彭羚"
+      ],
+      "artists_display": "彭羚",
+      "url": "https://music.apple.com/hk/album/%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B/320144939?i=320144969",
+      "score": 0.440733,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 65.0,
+      "best_peak_rank": 65,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 109
+    },
+    {
+      "apple_music_id": "6793277028",
+      "title": "Less than a Lover",
+      "artists": [
+        "JENNIE"
+      ],
+      "artists_display": "JENNIE",
+      "url": "https://music.apple.com/hk/album/less-than-a-lover/6793277024?i=6793277028",
+      "score": 0.435717,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 4,
+      "average_rank": 90.75,
+      "best_peak_rank": 83,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-12",
+      "rank": 110
+    },
+    {
+      "apple_music_id": "6831062156",
+      "title": "不在場 (Are You There?) [feat. Amy Lo]",
+      "artists": [
+        "馮允謙"
+      ],
+      "artists_display": "馮允謙",
+      "url": "https://music.apple.com/hk/album/%E4%B8%8D%E5%9C%A8%E5%A0%B4-are-you-there-feat-amy-lo/6831062153?i=6831062156",
+      "score": 0.366625,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 70.0,
+      "best_peak_rank": 70,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 111
+    },
+    {
+      "apple_music_id": "892745294",
+      "title": "我的快樂時代",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3/892745229?i=892745294",
+      "score": 0.330999,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 3,
+      "average_rank": 90.6667,
+      "best_peak_rank": 82,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-11",
+      "rank": 112
+    },
+    {
+      "apple_music_id": "1442913348",
+      "title": "最佳損友",
+      "artists": [
+        "陳奕迅"
+      ],
+      "artists_display": "陳奕迅",
+      "url": "https://music.apple.com/hk/album/%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B/1442912707?i=1442913348",
+      "score": 0.328955,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 4,
+      "average_rank": 93.25,
+      "best_peak_rank": 83,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-12",
+      "rank": 113
+    },
+    {
+      "apple_music_id": "1773452221",
+      "title": "APT.",
+      "artists": [
+        "ROSÉ",
+        "Bruno Mars"
+      ],
+      "artists_display": "ROSÉ & Bruno Mars",
+      "url": "https://music.apple.com/hk/album/apt/1773452219?i=1773452221",
+      "score": 0.295187,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 3,
+      "average_rank": 91.6667,
+      "best_peak_rank": 86,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-11",
+      "rank": 114
+    },
+    {
+      "apple_music_id": "1744336999",
+      "title": "戀愛腦之死",
+      "artists": [
+        "陳健安"
+      ],
+      "artists_display": "陳健安",
+      "url": "https://music.apple.com/hk/album/%E6%88%80%E6%84%9B%E8%85%A6%E4%B9%8B%E6%AD%BB/1744336998?i=1744336999",
+      "score": 0.262989,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 7,
+      "average_rank": 97.2857,
+      "best_peak_rank": 95,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-15",
+      "rank": 115
+    },
+    {
+      "apple_music_id": "940055014",
+      "title": "BAD BOY",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/bad-boy/940054966?i=940055014",
+      "score": 0.245673,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 79.0,
+      "best_peak_rank": 79,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 116
+    },
+    {
+      "apple_music_id": "1862362386",
+      "title": "冬季限定",
+      "artists": [
+        "林家謙"
+      ],
+      "artists_display": "林家謙",
+      "url": "https://music.apple.com/hk/album/%E5%86%AC%E5%AD%A3%E9%99%90%E5%AE%9A/1862362379?i=1862362386",
+      "score": 0.23733,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 3,
+      "average_rank": 93.3333,
+      "best_peak_rank": 91,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-11",
+      "rank": 117
+    },
+    {
+      "apple_music_id": "1313176082",
+      "title": "BAE BAE",
+      "artists": [
+        "BIGBANG"
+      ],
+      "artists_display": "BIGBANG",
+      "url": "https://music.apple.com/hk/album/bae-bae/1313175579?i=1313176082",
+      "score": 0.220671,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 81.0,
+      "best_peak_rank": 81,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 118
+    },
+    {
+      "apple_music_id": "1603171870",
+      "title": "Out of Time",
+      "artists": [
+        "The Weeknd"
+      ],
+      "artists_display": "The Weeknd",
+      "url": "https://music.apple.com/hk/album/out-of-time/1603171516?i=1603171870",
+      "score": 0.115311,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 90.0,
+      "best_peak_rank": 90,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "rank": 119
+    },
+    {
+      "apple_music_id": "6814412781",
+      "title": "淺粉紅 baby pink",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artists_display": "Gareth.T",
+      "url": "https://music.apple.com/hk/album/%E6%B7%BA%E7%B2%89%E7%B4%85-baby-pink/6814412776?i=6814412781",
+      "score": 0.091826,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 96.5,
+      "best_peak_rank": 94,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "rank": 120
+    },
+    {
+      "apple_music_id": "6830075454",
+      "title": "BACKHOME",
+      "artists": [
+        "Tyson Yoshi"
+      ],
+      "artists_display": "Tyson Yoshi",
+      "url": "https://music.apple.com/hk/album/backhome/6830075451?i=6830075454",
+      "score": 0.071826,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 94.0,
+      "best_peak_rank": 94,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 121
+    },
+    {
+      "apple_music_id": "1721454126",
+      "title": "珊瑚海 (feat. 梁心頤)",
+      "artists": [
+        "周杰倫"
+      ],
+      "artists_display": "周杰倫",
+      "url": "https://music.apple.com/hk/album/%E7%8F%8A%E7%91%9A%E6%B5%B7-feat-%E6%A2%81%E5%BF%83%E9%A0%A4/1721453716?i=1721454126",
+      "score": 0.06041,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 98.0,
+      "best_peak_rank": 97,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
+      "rank": 122
+    },
+    {
+      "apple_music_id": "1820264150",
+      "title": "Golden",
+      "artists": [
+        "HUNTR/X",
+        "EJAE",
+        "AUDREY NUNA",
+        "REI AMI",
+        "KPop Demon Hunters Cast"
+      ],
+      "artists_display": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
+      "url": "https://music.apple.com/hk/album/golden/1820264137?i=1820264150",
+      "score": 0.040103,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 99.0,
+      "best_peak_rank": 98,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "rank": 123
+    },
+    {
+      "apple_music_id": "1467214368",
+      "title": "在錯誤的宇宙尋找愛",
+      "artists": [
+        "陳健安"
+      ],
+      "artists_display": "陳健安",
+      "url": "https://music.apple.com/hk/album/%E5%9C%A8%E9%8C%AF%E8%AA%A4%E7%9A%84%E5%AE%87%E5%AE%99%E5%B0%8B%E6%89%BE%E6%84%9B/1467214363?i=1467214368",
+      "score": 0.040103,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 99.0,
+      "best_peak_rank": 98,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-14",
+      "rank": 124
+    },
+    {
+      "apple_music_id": "1564698614",
+      "title": "一人之境",
+      "artists": [
+        "林家謙"
+      ],
+      "artists_display": "林家謙",
+      "url": "https://music.apple.com/hk/album/%E4%B8%80%E4%BA%BA%E4%B9%8B%E5%A2%83/1564698613?i=1564698614",
+      "score": 0.020001,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 99.0,
+      "best_peak_rank": 99,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "rank": 125
+    },
+    {
+      "apple_music_id": "1817609507",
+      "title": "So Easy (To Fall In Love)",
+      "artists": [
+        "Olivia Dean"
+      ],
+      "artists_display": "Olivia Dean",
+      "url": "https://music.apple.com/hk/album/so-easy-to-fall-in-love/1817609404?i=1817609507",
+      "score": 0.019901,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 2,
+      "average_rank": 100.0,
+      "best_peak_rank": 100,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
+      "rank": 126
+    },
+    {
+      "apple_music_id": "1889992115",
+      "title": "stupid song",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artists_display": "Olivia Rodrigo",
+      "url": "https://music.apple.com/hk/album/stupid-song/1889992111?i=1889992115",
+      "score": 0.00995,
+      "days_at_number_1": 0,
+      "days_in_top_10": 0,
+      "days_in_top_100": 1,
+      "average_rank": 100.0,
+      "best_peak_rank": 100,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "rank": 127
+    }
+  ],
+  "artists": [
+    {
+      "name": "MC 張天賦",
+      "score": 115.548116,
+      "distinct_songs": 15,
+      "rank": 1
+    },
+    {
+      "name": "陳奕迅",
+      "score": 109.074639,
+      "distinct_songs": 17,
+      "rank": 2
+    },
+    {
+      "name": "Gareth.T",
+      "score": 63.957975,
+      "distinct_songs": 6,
+      "rank": 3
+    },
+    {
+      "name": "The Weeknd",
+      "score": 61.044812,
+      "distinct_songs": 8,
+      "rank": 4
+    },
+    {
+      "name": "衛蘭",
+      "score": 36.956573,
+      "distinct_songs": 5,
+      "rank": 5
+    },
+    {
+      "name": "A2O",
+      "score": 27.453813,
+      "distinct_songs": 1,
+      "rank": 6
+    },
+    {
+      "name": "A2O LITE",
+      "score": 27.453813,
+      "distinct_songs": 1,
+      "rank": 7
+    },
+    {
+      "name": "側田",
+      "score": 23.682116,
+      "distinct_songs": 4,
+      "rank": 8
+    },
+    {
+      "name": "BESTie",
+      "score": 22.601783,
+      "distinct_songs": 1,
+      "rank": 9
+    },
+    {
+      "name": "王靖雯",
+      "score": 21.099049,
+      "distinct_songs": 1,
+      "rank": 10
+    },
+    {
+      "name": "BIGBANG",
+      "score": 20.387131,
+      "distinct_songs": 11,
+      "rank": 11
+    },
+    {
+      "name": "周杰倫",
+      "score": 18.603779,
+      "distinct_songs": 8,
+      "rank": 12
+    },
+    {
+      "name": "容祖兒",
+      "score": 16.598699,
+      "distinct_songs": 3,
+      "rank": 13
+    },
+    {
+      "name": "張敬軒",
+      "score": 13.950764,
+      "distinct_songs": 4,
+      "rank": 14
+    },
+    {
+      "name": "晚安莉莉",
+      "score": 13.809803,
+      "distinct_songs": 1,
+      "rank": 15
+    },
+    {
+      "name": "Dear Jane",
+      "score": 13.203342,
+      "distinct_songs": 2,
+      "rank": 16
+    },
+    {
+      "name": "RESCENE",
+      "score": 12.262222,
+      "distinct_songs": 1,
+      "rank": 17
+    },
+    {
+      "name": "王菲",
+      "score": 11.301239,
+      "distinct_songs": 3,
+      "rank": 18
+    },
+    {
+      "name": "洪嘉豪",
+      "score": 9.987921,
+      "distinct_songs": 1,
+      "rank": 19
+    },
+    {
+      "name": "IVE",
+      "score": 8.884978,
+      "distinct_songs": 1,
+      "rank": 20
+    },
+    {
+      "name": "ADÉLA",
+      "score": 7.353797,
+      "distinct_songs": 1,
+      "rank": 21
+    },
+    {
+      "name": "ILLIT",
+      "score": 7.319823,
+      "distinct_songs": 1,
+      "rank": 22
+    },
+    {
+      "name": "Zpecial",
+      "score": 6.645832,
+      "distinct_songs": 2,
+      "rank": 23
+    },
+    {
+      "name": "陳蕾",
+      "score": 6.189556,
+      "distinct_songs": 1,
+      "rank": 24
+    },
+    {
+      "name": "Kiri T",
+      "score": 6.030237,
+      "distinct_songs": 2,
+      "rank": 25
+    },
+    {
+      "name": "米爺",
+      "score": 5.997351,
+      "distinct_songs": 1,
+      "rank": 26
+    },
+    {
+      "name": "黃淑蔓",
+      "score": 5.997351,
+      "distinct_songs": 1,
+      "rank": 27
+    },
+    {
+      "name": "連詩雅",
+      "score": 4.908598,
+      "distinct_songs": 1,
+      "rank": 28
+    },
+    {
+      "name": "Serrini",
+      "score": 4.023526,
+      "distinct_songs": 1,
+      "rank": 29
+    },
+    {
+      "name": "JENNIE",
+      "score": 3.851137,
+      "distinct_songs": 2,
+      "rank": 30
+    },
+    {
+      "name": "歸綽嶢",
+      "score": 3.828545,
+      "distinct_songs": 1,
+      "rank": 31
+    },
+    {
+      "name": "魏浚笙",
+      "score": 3.828545,
+      "distinct_songs": 1,
+      "rank": 32
+    },
+    {
+      "name": "莉莉露絲·特普",
+      "score": 3.41542,
+      "distinct_songs": 1,
+      "rank": 33
+    },
+    {
+      "name": "Tate McRae",
+      "score": 3.182843,
+      "distinct_songs": 1,
+      "rank": 34
+    },
+    {
+      "name": "Ariana Grande",
+      "score": 2.69885,
+      "distinct_songs": 1,
+      "rank": 35
+    },
+    {
+      "name": "BABYMONSTER",
+      "score": 2.425067,
+      "distinct_songs": 1,
+      "rank": 36
+    },
+    {
+      "name": "李佳薇",
+      "score": 1.755359,
+      "distinct_songs": 1,
+      "rank": 37
+    },
+    {
+      "name": "CY陳宗澤",
+      "score": 0.959672,
+      "distinct_songs": 1,
+      "rank": 38
+    },
+    {
+      "name": "ATEEZ",
+      "score": 0.915561,
+      "distinct_songs": 1,
+      "rank": 39
+    },
+    {
+      "name": "陳健安",
+      "score": 0.85777,
+      "distinct_songs": 3,
+      "rank": 40
+    },
+    {
+      "name": "G-DRAGON",
+      "score": 0.799143,
+      "distinct_songs": 1,
+      "rank": 41
+    },
+    {
+      "name": "許志安",
+      "score": 0.730664,
+      "distinct_songs": 1,
+      "rank": 42
+    },
+    {
+      "name": "鄭中基",
+      "score": 0.61651,
+      "distinct_songs": 1,
+      "rank": 43
+    },
+    {
+      "name": "moon tang",
+      "score": 0.560842,
+      "distinct_songs": 1,
+      "rank": 44
+    },
+    {
+      "name": "吳雨霏",
+      "score": 0.452614,
+      "distinct_songs": 1,
+      "rank": 45
+    },
+    {
+      "name": "彭羚",
+      "score": 0.440733,
+      "distinct_songs": 1,
+      "rank": 46
+    },
+    {
+      "name": "馮允謙",
+      "score": 0.366625,
+      "distinct_songs": 1,
+      "rank": 47
+    },
+    {
+      "name": "Bruno Mars",
+      "score": 0.295187,
+      "distinct_songs": 1,
+      "rank": 48
+    },
+    {
+      "name": "ROSÉ",
+      "score": 0.295187,
+      "distinct_songs": 1,
+      "rank": 49
+    },
+    {
+      "name": "林家謙",
+      "score": 0.257331,
+      "distinct_songs": 2,
+      "rank": 50
+    },
+    {
+      "name": "Tyson Yoshi",
+      "score": 0.071826,
+      "distinct_songs": 1,
+      "rank": 51
+    },
+    {
+      "name": "AUDREY NUNA",
+      "score": 0.040103,
+      "distinct_songs": 1,
+      "rank": 52
+    },
+    {
+      "name": "EJAE",
+      "score": 0.040103,
+      "distinct_songs": 1,
+      "rank": 53
+    },
+    {
+      "name": "HUNTR/X",
+      "score": 0.040103,
+      "distinct_songs": 1,
+      "rank": 54
+    },
+    {
+      "name": "KPop Demon Hunters Cast",
+      "score": 0.040103,
+      "distinct_songs": 1,
+      "rank": 55
+    },
+    {
+      "name": "REI AMI",
+      "score": 0.040103,
+      "distinct_songs": 1,
+      "rank": 56
+    },
+    {
+      "name": "Olivia Dean",
+      "score": 0.019901,
+      "distinct_songs": 1,
+      "rank": 57
+    },
+    {
+      "name": "Olivia Rodrigo",
+      "score": 0.00995,
+      "distinct_songs": 1,
+      "rank": 58
+    }
+  ]
+}
